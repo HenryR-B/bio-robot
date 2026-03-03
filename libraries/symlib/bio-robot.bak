@@ -3798,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:CAP_EEEFT1H470AP"
+		(property "Footprint" "bio-robot:CAP_16SVPF180M"
 			(at 0 0 0)
 			(effects
 				(font
