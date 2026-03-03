@@ -5,7 +5,7 @@
 	(uuid "f33c1807-dc39-4ef0-beae-cae7dbebb087")
 	(paper "A4")
 	(lib_symbols
-		(symbol "bots:D_ZENER_SMAZ12-13F"
+		(symbol "bio-robot:D_ZENER_SMAZ6V8"
 			(pin_numbers
 				(hide yes)
 			)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "SMAZ12-13F"
+			(property "Value" "SMAZ6V8"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -32,7 +32,7 @@
 					)
 				)
 			)
-			(property "Footprint" "bots:D_SMB"
+			(property "Footprint" "bots:D_SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SMAZ12-13F"
+			(property "MPN" "SMAZ6V8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Micro Commercial Co"
+			(property "Manufacturer" "EIC Semicon C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.63"
+			(property "Price" "0.1464"
 				(at 0 0 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLC" ""
+			(property "LCSC" "C2988335"
 				(at 0 0 0)
 				(effects
 					(font
@@ -95,7 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" ""
+			(property "JLC" "DO-214AC(SMA)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -122,7 +122,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_ZENER_SMAZ12-13F_0_1"
+			(symbol "D_ZENER_SMAZ6V8_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
@@ -160,7 +160,7 @@
 					)
 				)
 			)
-			(symbol "D_ZENER_SMAZ12-13F_1_1"
+			(symbol "D_ZENER_SMAZ6V8_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -200,7 +200,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bots:Fuse_0501015.WR1"
+		(symbol "bio-robot:Fuse_Littelfuse5A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(property "Value" "0501015.WR1"
+			(property "Value" "0437005.WR"
 				(at 0 -1.905 0)
 				(effects
 					(font
@@ -253,7 +253,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "0501015.WR1"
+			(property "MPN" "0437005.WR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -271,7 +271,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.0992"
+			(property "Price" " 0.1509"
 				(at 0 0 0)
 				(effects
 					(font
@@ -289,7 +289,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C410346"
+			(property "LCSC" "C99541"
 				(at 0 0 0)
 				(effects
 					(font
@@ -325,7 +325,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Fuse_0501015.WR1_0_1"
+			(symbol "Fuse_Littelfuse5A_0_1"
 				(polyline
 					(pts
 						(xy -3.81 0) (xy -2.54 0)
@@ -375,7 +375,7 @@
 					)
 				)
 			)
-			(symbol "Fuse_0501015.WR1_1_1"
+			(symbol "Fuse_Littelfuse5A_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -415,7 +415,122 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bots:MCU60P04-TP"
+		(symbol "bio-robot:JST_XH-2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "JST_2P_XH"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "bots:JST_B2B-XH-A_LF__SN_"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "FUSE_3549-2_KEY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_XH-2_1_0"
+				(pin bidirectional line
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -3.81 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "JST_XH-2_1_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+						(color 204 102 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:Q_Pch40V45A"
 			(pin_names
 				(hide yes)
 			)
@@ -431,7 +546,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCU60P04-TP"
+			(property "Value" "DOD4185"
 				(at 4.953 0 0)
 				(effects
 					(font
@@ -451,7 +566,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/69253/sud19p06.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
 				(at 0 0 0)
 				(effects
 					(font
@@ -460,7 +575,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-Channel 40 V 60A 110W Surface Mount D-Pak"
+			(property "Description" "P-Channel 40 V 45A 73.5W Surface Mount D-Pak"
 				(at 0 0 0)
 				(effects
 					(font
@@ -469,7 +584,16 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C130101"
+			(property "LCSC" "C41430591"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "DOD4185"
 				(at 0 0 0)
 				(effects
 					(font
@@ -496,7 +620,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCU60P04-TP_0_1"
+			(symbol "Q_Pch40V45A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -663,7 +787,7 @@
 					)
 				)
 			)
-			(symbol "MCU60P04-TP_1_1"
+			(symbol "Q_Pch40V45A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -721,156 +845,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bots:RA1H1C112R"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "RA1H1C112R"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "bots:SW_RA1H1C112R"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "FUSE_3549-2_KEY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RA1H1C112R_1_1"
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -3.81) (xy -1.27 -3.81) (xy -1.27 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 6.35 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -8.89 1.27 0)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -1.27 0)
-					(length 7.62)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bots:R_100k"
+		(symbol "bio-robot:R_100k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1048,7 +1023,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bots:XT-60"
+		(symbol "bio-robot:XT-60"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1420,11 +1395,33 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "3 cell battery -> 12.6V max, 10.2V min.\nparallel for modularity"
+		(exclude_from_sim no)
+		(at 111.506 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34ab64a8-d2de-40bb-8188-4657436e6ed5")
+	)
 	(junction
-		(at 125.73 76.2)
+		(at 127 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3442a8b7-31cb-4e2b-bd31-4b48ac9d1c32")
+		(uuid "41b0b5e6-0129-4396-8eda-e227369afbcf")
+	)
+	(junction
+		(at 67.31 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f9105a8-63d7-4e4a-809e-af8e669a7947")
+	)
+	(junction
+		(at 72.39 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67efc5be-56e2-40a4-9546-6569fed4ec32")
 	)
 	(junction
 		(at 132.08 49.53)
@@ -1446,7 +1443,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 132.08 76.2)
+			(xy 123.19 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1473,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 82.55 49.53)
+			(xy 127 97.79) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acfa411-9c43-4687-bb86-b0600087e70c")
+	)
+	(wire
+		(pts
+			(xy 67.31 49.53) (xy 72.39 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1506,13 +1513,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 125.73 100.33)
+			(xy 72.39 49.53) (xy 82.55 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2590bc90-8574-4de2-bfad-4d90afc951a4")
+		(uuid "32baff5b-317f-4882-92b3-7c6b62930307")
+	)
+	(wire
+		(pts
+			(xy 67.31 52.07) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346146f6-72a4-4e37-bf0e-c866e9ed13c5")
 	)
 	(wire
 		(pts
@@ -1536,6 +1553,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 60.96) (xy 72.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4755beaa-49ef-4949-9cee-90ed02db2058")
+	)
+	(wire
+		(pts
 			(xy 138.43 57.15) (xy 138.43 64.77)
 		)
 		(stroke
@@ -1556,13 +1583,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 52.07) (xy 67.31 68.58)
+			(xy 72.39 49.53) (xy 72.39 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bc3a3c7-8d50-4b21-98e1-0187dc63eabb")
+		(uuid "5688143d-ae3a-48ac-892c-ef109c7ddf07")
 	)
 	(wire
 		(pts
@@ -1576,6 +1603,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 52.07) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e8e6f5-cb5b-4de6-82fe-e5a115ce3bd5")
+	)
+	(wire
+		(pts
 			(xy 90.17 49.53) (xy 107.95 49.53)
 		)
 		(stroke
@@ -1586,6 +1623,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 63.5) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa017f4-1fea-4797-9a6c-7b13f5e914ad")
+	)
+	(wire
+		(pts
 			(xy 123.19 73.66) (xy 123.19 76.2)
 		)
 		(stroke
@@ -1593,6 +1640,16 @@
 			(type default)
 		)
 		(uuid "bc92bb91-7679-4bea-9112-e1b587664f33")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7be330-9dc8-4789-8dcb-c501c5ee11a2")
 	)
 	(wire
 		(pts
@@ -1626,16 +1683,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 125.73 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42bdd32-c62f-47a4-bcc9-7cf1eb81c551")
-	)
-	(wire
-		(pts
 			(xy 123.19 49.53) (xy 132.08 49.53)
 		)
 		(stroke
@@ -1646,13 +1693,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 102.87) (xy 125.73 110.49)
+			(xy 127 76.2) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f60837c3-f3cb-4f4f-9f65-028f720731ae")
+		(uuid "f60d846e-c82c-4b74-bf8b-56d6b7a2866c")
 	)
 	(wire
 		(pts
@@ -1663,6 +1710,16 @@
 			(type default)
 		)
 		(uuid "fba0f6ce-6d9b-491e-8cb4-7a76df56b5a4")
+	)
+	(wire
+		(pts
+			(xy 67.31 63.5) (xy 67.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1cba6c-4cb5-4d41-9f33-271005441477")
 	)
 	(label "VCC_MID"
 		(at 125.73 49.53 0)
@@ -1780,7 +1837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:Fuse_0501015.WR1")
+		(lib_id "bio-robot:Fuse_Littelfuse5A")
 		(at 86.36 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1797,7 +1854,7 @@
 				)
 			)
 		)
-		(property "Value" "0501015.WR1"
+		(property "Value" "0437005.WR"
 			(at 86.36 45.72 0)
 			(effects
 				(font
@@ -1823,15 +1880,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse"
 			(at 86.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "MPN" "0501015.WR1"
+		(property "MPN" "0437005.WR"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -1849,7 +1907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0992"
+		(property "Price" " 0.1509"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -1867,7 +1925,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C410346"
+		(property "LCSC" "C99541"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -1901,7 +1959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:XT-60")
+		(lib_id "bio-robot:XT-60")
 		(at 58.42 50.8 0)
 		(mirror y)
 		(unit 1)
@@ -1920,12 +1978,11 @@
 			)
 		)
 		(property "Value" "XT60"
-			(at 53.34 52.07 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "bots:XT60_12-14AWG_POWER"
@@ -1954,6 +2011,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1972,8 +2030,79 @@
 		)
 	)
 	(symbol
+		(lib_id "bio-robot:XT-60")
+		(at 58.42 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38711f51-bdb9-4346-94ef-31b7aa85bd7d")
+		(property "Reference" "J2"
+			(at 53.34 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT60"
+			(at 56.896 67.564 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "bots:XT60_12-14AWG_POWER"
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d9c8d30-8db1-4dc7-a558-ee5bb6750fb1")
+		)
+		(pin "2"
+			(uuid "417f7552-d9c4-49a6-b7eb-0ffc37e8959c")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 125.73 110.49 0)
+		(at 127 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1981,7 +2110,7 @@
 		(dnp no)
 		(uuid "44f8ab87-c69f-4bee-a322-0968c577c930")
 		(property "Reference" "#PWR017"
-			(at 125.73 116.84 0)
+			(at 127 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +2119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 114.3 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +2127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 110.49 0)
+			(at 127 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 110.49 0)
+			(at 127 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2145,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 110.49 0)
+			(at 127 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:R_100k")
+		(lib_id "bio-robot:R_100k")
 		(at 123.19 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2046,7 +2175,7 @@
 		(fields_autoplaced yes)
 		(uuid "708a99ad-0d8d-41db-95c3-d09ddb41adca")
 		(property "Reference" "R1"
-			(at 125.73 68.58 0)
+			(at 125.73 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2184,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 125.73 71.12 0)
+			(at 125.73 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,12 +2210,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 123.19 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "0603WAF1003T5E"
@@ -2159,7 +2289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:D_ZENER_SMAZ12-13F")
+		(lib_id "bio-robot:D_ZENER_SMAZ6V8")
 		(at 123.19 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2169,7 +2299,7 @@
 		(fields_autoplaced yes)
 		(uuid "78eb8d44-5017-4152-842d-d4a17755be1b")
 		(property "Reference" "D1"
-			(at 125.73 55.88 90)
+			(at 125.73 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,8 +2307,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMAZ12-13F"
-			(at 125.73 58.42 90)
+		(property "Value" "SMAZ6V8"
+			(at 125.73 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bots:D_SMB"
+		(property "Footprint" "bots:D_SMA"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -2204,15 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMAZ12-13F"
+		(property "Description" "Zener diode"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -2221,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Micro Commercial Co"
+		(property "MPN" "SMAZ6V8"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -2230,7 +2352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.63"
+		(property "Manufacturer" "EIC Semicon C"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -2239,7 +2361,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "Price" "0.1464"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -2248,7 +2370,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C260227"
+		(property "JLC" "DO-214AC(SMA)"
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2988335"
 			(at 123.19 57.15 0)
 			(effects
 				(font
@@ -2273,78 +2404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:RA1H1C112R")
-		(at 134.62 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7935bb73-bac4-45a4-8369-5692c60e743e")
-		(property "Reference" "SW1"
-			(at 142.24 100.965 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RA1H1C112R"
-			(at 142.24 103.505 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bots:SW_RA1H1C112R"
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "324c0db2-2b53-4fd6-9367-e69877f26a5e")
-		)
-		(pin "2"
-			(uuid "4c2165e1-6e94-415b-9777-c3c657c9a544")
-		)
-		(instances
-			(project "motherboard-esp32"
-				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bots:MCU60P04-TP")
+		(lib_id "bio-robot:Q_Pch40V45A")
 		(at 138.43 52.07 270)
 		(mirror x)
 		(unit 1)
@@ -2361,12 +2421,13 @@
 				)
 			)
 		)
-		(property "Value" "MCU60P04-TP"
-			(at 138.43 45.72 90)
+		(property "Value" "DOD4185"
+			(at 138.938 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "bots:DPAK-3_ONS"
@@ -2380,7 +2441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/69253/sud19p06.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -2389,15 +2450,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-Channel 40 V 45A 73.5W Surface Mount D-Pak"
 			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC" "C130101"
+		(property "LCSC" "C41430591"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DOD4185"
 			(at 138.43 52.07 0)
 			(effects
 				(font
@@ -2425,7 +2496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:MCU60P04-TP")
+		(lib_id "bio-robot:Q_Pch40V45A")
 		(at 113.03 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2442,7 +2513,7 @@
 				)
 			)
 		)
-		(property "Value" "MCU60P04-TP"
+		(property "Value" "DOD4185"
 			(at 113.03 45.72 90)
 			(effects
 				(font
@@ -2461,7 +2532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/69253/sud19p06.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
 			(at 113.03 52.07 0)
 			(effects
 				(font
@@ -2470,15 +2541,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-Channel 40 V 45A 73.5W Surface Mount D-Pak"
 			(at 113.03 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC" "C130101"
+		(property "LCSC" "C41430591"
+			(at 113.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DOD4185"
 			(at 113.03 52.07 0)
 			(effects
 				(font
@@ -2571,7 +2652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:R_100k")
+		(lib_id "bio-robot:R_100k")
 		(at 132.08 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2581,7 +2662,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2421997-851a-4173-af1d-877dcc28e430")
 		(property "Reference" "R2"
-			(at 134.62 68.58 0)
+			(at 134.62 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2671,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 134.62 71.12 0)
+			(at 134.62 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,12 +2697,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "0603WAF1003T5E"
@@ -2688,6 +2770,78 @@
 			(project "motherboard-esp32"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:JST_XH-2")
+		(at 132.08 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9a3cbb0-b50c-486e-a946-f4488f0b3965")
+		(property "Reference" "J3"
+			(at 137.16 92.7099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_2P_XH"
+			(at 137.16 95.2499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bots:JST_B2B-XH-A_LF__SN_"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5124f84-0ce6-4a56-b9ff-8ff5c6a7c70e")
+		)
+		(pin "2"
+			(uuid "3f53c4f5-0278-4d01-bb9a-4a029e1cb510")
+		)
+		(instances
+			(project ""
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "J3")
 					(unit 1)
 				)
 			)
