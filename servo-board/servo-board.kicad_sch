@@ -15744,7 +15744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 40.64 76.2 0)
 			(effects
 				(font

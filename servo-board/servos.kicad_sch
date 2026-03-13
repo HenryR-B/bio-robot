@@ -1794,7 +1794,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+			(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 				(at 0 -4.826 0)
 				(effects
 					(font
@@ -2221,6 +2221,112 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:SolderBridge_GND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -0.254 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderBridge_GND"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bio-robot:SolderBridge_GND"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderBridge_GND_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -2903,16 +3009,52 @@
 		(uuid "305f732b-c30a-4202-a14a-b6f44bb0e729")
 	)
 	(junction
+		(at 203.2 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45df83e3-6a3b-4003-a1d8-a1e393814bd9")
+	)
+	(junction
 		(at 48.26 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bcc38cc-9b30-4bd7-a06d-dd5aed67d357")
 	)
 	(junction
+		(at 182.88 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c8ee00-cdda-4980-a92c-3026da6d5618")
+	)
+	(junction
+		(at 182.88 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66b60e96-9945-4e83-9a40-005e95679317")
+	)
+	(junction
 		(at 48.26 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ac2ed03-65ff-4899-acae-330ba46c8f2f")
+	)
+	(junction
+		(at 203.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f40af8-b5af-406c-9523-fbff3c84bf4a")
+	)
+	(junction
+		(at 182.88 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b77859-e540-4783-a8f1-d92a6bbea7e1")
+	)
+	(junction
+		(at 203.2 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853f28ad-0b5b-4b13-84d9-264dd4f516cd")
 	)
 	(junction
 		(at 49.53 25.4)
@@ -2925,6 +3067,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd25b5eb-01dd-478a-8a9c-9f97cd46320a")
+	)
+	(junction
+		(at 203.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e65ec406-56ab-4c81-876d-50ecc993cde8")
 	)
 	(junction
 		(at 26.67 71.12)
@@ -2956,6 +3104,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 77.47) (xy 203.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a92a4d-0414-47db-9a72-5ed4b0dda3b6")
+	)
+	(wire
+		(pts
 			(xy 48.26 82.55) (xy 48.26 81.28)
 		)
 		(stroke
@@ -2973,6 +3131,16 @@
 			(type default)
 		)
 		(uuid "09d46bde-8874-4a24-8dde-b78460adbc8a")
+	)
+	(wire
+		(pts
+			(xy 203.2 49.53) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7b2a63-8088-4075-bd95-6e30b6565112")
 	)
 	(wire
 		(pts
@@ -3106,6 +3274,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 68.58) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49569675-0339-4913-8426-940323ddf60b")
+	)
+	(wire
+		(pts
 			(xy 114.3 85.09) (xy 116.84 85.09)
 		)
 		(stroke
@@ -3113,6 +3291,16 @@
 			(type default)
 		)
 		(uuid "4a10795b-da5e-4d67-9626-3e6b9d7b3b2d")
+	)
+	(wire
+		(pts
+			(xy 193.04 58.42) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3bb390-6b8c-4d0e-b3f2-4ca03c93d1df")
 	)
 	(wire
 		(pts
@@ -3246,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 86.36) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9eaa6b-4ef8-480d-b3dd-21a098098027")
+	)
+	(wire
+		(pts
 			(xy 49.53 22.86) (xy 49.53 25.4)
 		)
 		(stroke
@@ -3253,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "5d5b8607-8976-49f1-9e0e-3d57fd9eb465")
+	)
+	(wire
+		(pts
+			(xy 182.88 58.42) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610cc65b-79b2-456b-8bb5-aa22a2c9543b")
 	)
 	(wire
 		(pts
@@ -3316,6 +3524,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae23304-94f9-4650-bdba-d742eb178ff8")
+	)
+	(wire
+		(pts
 			(xy 48.26 82.55) (xy 63.5 82.55)
 		)
 		(stroke
@@ -3326,6 +3544,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 86.36) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be9f72b-4ebd-4a33-8668-040738947313")
+	)
+	(wire
+		(pts
 			(xy 49.53 48.26) (xy 52.07 48.26)
 		)
 		(stroke
@@ -3333,6 +3561,16 @@
 			(type default)
 		)
 		(uuid "6cce990a-d930-4f2a-9866-e57b1ee491ac")
+	)
+	(wire
+		(pts
+			(xy 187.96 49.53) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2add59-f8f0-442f-85dc-aae7d2dc4d89")
 	)
 	(wire
 		(pts
@@ -3366,6 +3604,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 49.53) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7682e849-9dc6-4f12-adc3-a80194fe0238")
+	)
+	(wire
+		(pts
 			(xy 107.95 24.13) (xy 107.95 25.4)
 		)
 		(stroke
@@ -3396,6 +3644,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 49.53) (xy 182.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a630e71-f9e4-4cc8-926b-6bc6c731d82a")
+	)
+	(wire
+		(pts
+			(xy 182.88 58.42) (xy 187.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc60566-8f7d-43cf-bb15-a9bf33ae4aa5")
+	)
+	(wire
+		(pts
 			(xy 26.67 73.66) (xy 26.67 71.12)
 		)
 		(stroke
@@ -3416,6 +3684,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 77.47) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83de78d0-4599-4593-a152-dc8737aab141")
+	)
+	(wire
+		(pts
 			(xy 106.68 104.14) (xy 115.57 104.14)
 		)
 		(stroke
@@ -3426,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 62.23) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8664f5f3-7a01-45f5-8a71-62ece9d670ef")
+	)
+	(wire
+		(pts
 			(xy 107.95 44.45) (xy 116.84 44.45)
 		)
 		(stroke
@@ -3433,6 +3721,16 @@
 			(type default)
 		)
 		(uuid "893c2393-01f3-4e73-bc67-ed20b7cfa080")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba02069-76fc-4f70-9649-f4681197cb03")
 	)
 	(wire
 		(pts
@@ -3483,6 +3781,16 @@
 			(type default)
 		)
 		(uuid "9bc7b942-6014-4978-bf23-675936e8ca15")
+	)
+	(wire
+		(pts
+			(xy 177.8 58.42) (xy 182.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d08162c-bdee-4ecd-b8ad-4c4f557d9625")
 	)
 	(wire
 		(pts
@@ -3556,6 +3864,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 77.47) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c4e161-f47f-4311-b1ab-35b8bbaa644f")
+	)
+	(wire
+		(pts
 			(xy 114.3 86.36) (xy 114.3 85.09)
 		)
 		(stroke
@@ -3573,6 +3891,16 @@
 			(type default)
 		)
 		(uuid "b73fc0a4-b1c5-4d80-aafa-c8a58a4abf74")
+	)
+	(wire
+		(pts
+			(xy 203.2 86.36) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c16464-3288-4ef4-9c3c-ef2fc1fcb542")
 	)
 	(wire
 		(pts
@@ -3696,6 +4024,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 68.58) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4dfac46-cc08-4b46-9403-8cb7fe6111fc")
+	)
+	(wire
+		(pts
 			(xy 45.72 119.38) (xy 50.8 119.38)
 		)
 		(stroke
@@ -3706,6 +4044,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 63.5) (xy 203.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9b9b03-d7f7-4c42-a8de-ceac819d69a2")
+	)
+	(wire
+		(pts
 			(xy 48.26 106.68) (xy 48.26 109.22)
 		)
 		(stroke
@@ -3713,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "e2458c53-8671-4369-af0a-0054021d1f66")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 203.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6057dde-8497-427f-89f6-7d9960c24556")
 	)
 	(wire
 		(pts
@@ -3763,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "fc24193e-8f24-44f4-bcc0-3d4e4b3b9a63")
+	)
+	(wire
+		(pts
+			(xy 212.09 63.5) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc816e24-f2e3-4ab9-96c6-5c73e28ef550")
 	)
 	(wire
 		(pts
@@ -4286,6 +4654,74 @@
 		)
 	)
 	(symbol
+		(lib_id "bio-robot:SolderBridge_GND")
+		(at 190.5 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2512e5fb-d9a8-4d49-b900-e0dc26defd87")
+		(property "Reference" "P1"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderBridge_GND"
+			(at 190.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bio-robot:SolderBridge_GND"
+			(at 190.5 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7e8a713-eadb-41ce-9620-cb2ba3a12ff2")
+		)
+		(pin "2"
+			(uuid "5f1e3aeb-e8f4-4278-9088-cfb14c1ca3d3")
+		)
+		(instances
+			(project ""
+				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+6V")
 		(at 107.95 60.96 0)
 		(unit 1)
@@ -4330,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 107.95 60.96 0)
 			(effects
 				(font
@@ -4418,6 +4854,74 @@
 		)
 	)
 	(symbol
+		(lib_id "bio-robot:SolderBridge_GND")
+		(at 190.5 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f34282d-aba0-43d1-997d-4a560950762e")
+		(property "Reference" "P3"
+			(at 190.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderBridge_GND"
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bio-robot:SolderBridge_GND"
+			(at 190.5 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082b7657-1587-4301-9d44-c3758af437a4")
+		)
+		(pin "2"
+			(uuid "32bf08d0-d535-45c5-ab7d-c8baeb80938f")
+		)
+		(instances
+			(project "servo-board"
+				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bio-robot:Motor_Servo")
 		(at 124.46 62.23 0)
 		(unit 1)
@@ -4445,7 +4949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 67.056 0)
 			(effects
 				(font
@@ -4485,6 +4989,74 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
 					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:SolderBridge_GND")
+		(at 190.5 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37f12de7-c3de-4b3b-8c89-1769478cf01c")
+		(property "Reference" "P2"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderBridge_GND"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bio-robot:SolderBridge_GND"
+			(at 190.5 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35fa3637-12be-463e-bc9c-dd7841fcdddd")
+		)
+		(pin "2"
+			(uuid "21e5a053-ccf2-47c8-8fc8-d10eb19f5e50")
+		)
+		(instances
+			(project "servo-board"
+				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
+					(reference "P2")
 					(unit 1)
 				)
 			)
@@ -4584,7 +5156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 145.796 0)
 			(effects
 				(font
@@ -4723,7 +5295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 30.226 0)
 			(effects
 				(font
@@ -4862,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 123.19 108.966 0)
 			(effects
 				(font
@@ -4952,7 +5524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 107.95 81.28 0)
 			(effects
 				(font
@@ -5001,7 +5573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 128.016 0)
 			(effects
 				(font
@@ -5179,7 +5751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -5195,6 +5767,142 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:SolderBridge_GND")
+		(at 190.5 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68baa087-5b7f-4380-9954-3eb47e3869e7")
+		(property "Reference" "P4"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderBridge_GND"
+			(at 190.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bio-robot:SolderBridge_GND"
+			(at 190.5 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d5663b6-1b4f-4ba7-8fba-a75841724934")
+		)
+		(pin "2"
+			(uuid "02d3e72d-ceb9-4062-af92-ecb9c54cf460")
+		)
+		(instances
+			(project "servo-board"
+				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:SolderBridge_GND")
+		(at 190.5 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a928b3-b665-4c8e-a996-92d9b17e6a7f")
+		(property "Reference" "P5"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderBridge_GND"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bio-robot:SolderBridge_GND"
+			(at 190.5 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8022e5f-b40f-488d-aaa3-f7a788892974")
+		)
+		(pin "2"
+			(uuid "81360d49-00c0-4ae2-bc6e-ac2b069a771c")
+		)
+		(instances
+			(project "servo-board"
+				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
+					(reference "P5")
 					(unit 1)
 				)
 			)
@@ -5245,7 +5953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 106.68 102.87 0)
 			(effects
 				(font
@@ -5360,7 +6068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 49.276 0)
 			(effects
 				(font
@@ -5741,7 +6449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 87.376 0)
 			(effects
 				(font
@@ -5814,7 +6522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinHeader_1x03_P2.54mm_Vertical"
 			(at 124.46 166.116 0)
 			(effects
 				(font
@@ -6036,7 +6744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 107.95 24.13 0)
 			(effects
 				(font
@@ -6292,7 +7000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 107.95 139.7 0)
 			(effects
 				(font
@@ -6308,6 +7016,138 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 212.09 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bad458b9-0765-4576-bb0c-e8a003c2b5d7")
+		(property "Reference" "#PWR042"
+			(at 212.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 211.963 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "568c26be-48b9-4089-984a-70de3fee6581")
+		)
+		(instances
+			(project "servo-board"
+				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb226a8-57d9-4528-88e5-9ad00248172e")
+		(property "Reference" "#PWR043"
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f631280c-5574-452f-88dc-edd026d93aa0")
+		)
+		(instances
+			(project "servo-board"
+				(path "/06885edb-c921-425f-9c23-9a632279b786/e5da5277-9694-44bd-843d-3b8fe3f1bce3"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6358,7 +7198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 26.67 69.85 0)
 			(effects
 				(font
@@ -6424,7 +7264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 107.95 160.02 0)
 			(effects
 				(font
@@ -6805,7 +7645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 107.95 43.18 0)
 			(effects
 				(font

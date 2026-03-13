@@ -4323,7 +4323,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "C_1uF_HS"
+	(symbol "C_1uF"
 		(pin_numbers
 			(hide yes)
 		)
@@ -4343,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF_HS"
+		(property "Value" "1uF"
 			(at 0.254 -2.032 0)
 			(effects
 				(font
@@ -4352,7 +4352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "bio-robot:C_0603_1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4415,7 +4415,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_1uF_HS_0_1"
+		(symbol "C_1uF_0_1"
 			(polyline
 				(pts
 					(xy -1.524 0.508) (xy 1.524 0.508)
@@ -4441,7 +4441,7 @@
 				)
 			)
 		)
-		(symbol "C_1uF_HS_1_1"
+		(symbol "C_1uF_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 2.032)
@@ -11950,6 +11950,112 @@
 				(at -5.08 -2.54 0)
 				(length 3.81)
 				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SolderBridge_GND"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "P"
+			(at -0.254 2.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderBridge_GND"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bio-robot:SolderBridge_GND"
+			(at 0 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SolderBridge_GND_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)

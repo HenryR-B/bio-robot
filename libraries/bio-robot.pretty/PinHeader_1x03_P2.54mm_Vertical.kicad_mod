@@ -1,4 +1,4 @@
-(footprint "PinSocket_1x03_P2.54mm_Vertical"
+(footprint "PinHeader_1x03_P2.54mm_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "PinSocket_1x03_P2.54mm_Vertical"
+	(property "Value" "PinHeader_1x03_P2.54mm_Vertical"
 		(at 0 7.85 0)
 		(layer "F.Fab")
 		(uuid "032c722d-5cbe-4692-bcd9-cec71c85f00d")
@@ -239,7 +239,7 @@
 		(uuid "0acd6f7d-99ff-46e2-bff9-3e93f3da8039")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)
