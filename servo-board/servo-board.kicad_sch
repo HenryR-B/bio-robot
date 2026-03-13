@@ -13,23 +13,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 12.7 0)
+			(property "Reference" "J3"
+				(at 1.27 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x10"
-				(at 1.27 -15.24 0)
+			(property "Value" "Conn_02x10_Counter_Clockwise"
+				(at 1.27 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+			(property "Footprint" "bio-robot:PinSocket_2x10_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1971,299 +1971,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bio-robot:Motor_Servo"
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at -5.08 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Motor_Servo"
-				(at -5.08 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-				(at 0 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-				(at 0 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Servo Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Motor_Servo_0_1"
-				(polyline
-					(pts
-						(xy 2.413 1.778) (xy 1.905 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 1.778) (xy 2.286 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -1.778) (xy 2.032 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -1.778) (xy 2.286 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.413 -1.778)
-					(mid 1.2406 0)
-					(end 2.413 1.778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.175 0)
-					(radius 1.4224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.969 2.794)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 4.445) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.477 3.302)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.35 4.445)
-					(mid 7.4487 4.2737)
-					(end 7.62 3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 3.81)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.175) (xy 4.191 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_Servo_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "PWM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bio-robot:MountingHoleM3"
 			(pin_names
 				(offset 1.016)
@@ -2287,7 +1994,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(property "Footprint" "bio-robot:MountingHole_3.2mm_M3_DIN965_Pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2371,7 +2078,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(property "Footprint" "bio-robot:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3245,16 +2952,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 85.09) (xy 251.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0207fa1f-aaa0-4b62-916b-f2d0986556ae")
-	)
-	(wire
-		(pts
 			(xy 198.12 39.37) (xy 195.58 39.37)
 		)
 		(stroke
@@ -3265,6 +2962,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 87.63) (xy 218.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e2e7a3-e487-4efc-baf3-f3aedbb2f23c")
+	)
+	(wire
+		(pts
 			(xy 38.1 55.88) (xy 40.64 55.88)
 		)
 		(stroke
@@ -3272,66 +2979,6 @@
 			(type default)
 		)
 		(uuid "09af294d-071b-48fe-9cb7-b7cc52d5a2da")
-	)
-	(wire
-		(pts
-			(xy 214.63 69.85) (xy 217.17 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0efe1ccd-bb3c-4a9f-ad52-46e5359b09de")
-	)
-	(wire
-		(pts
-			(xy 257.81 90.17) (xy 257.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15beb98f-9c03-4bf2-b4c9-4357bc6526a6")
-	)
-	(wire
-		(pts
-			(xy 208.28 104.14) (xy 217.17 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a14ffff-b6dc-4cf8-bfe1-0cd35dccaecc")
-	)
-	(wire
-		(pts
-			(xy 214.63 90.17) (xy 214.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b2a567e-88fa-4c17-b271-ea53f439d496")
-	)
-	(wire
-		(pts
-			(xy 251.46 124.46) (xy 260.35 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bcfaa58-bd7f-42d6-a0d2-a7f960fa2f9b")
-	)
-	(wire
-		(pts
-			(xy 257.81 88.9) (xy 260.35 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec243ec-86a2-483f-b67f-429eb70f06ef")
 	)
 	(wire
 		(pts
@@ -3355,13 +3002,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 217.17 88.9)
+			(xy 242.57 90.17) (xy 245.11 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36ff7025-85a9-46dd-9b11-923fac9b77bd")
+		(uuid "2bd0556e-f209-4560-8bba-31821ef5229a")
+	)
+	(wire
+		(pts
+			(xy 215.9 85.09) (xy 218.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c487d0d-558a-4f46-8e28-93d4b65395fa")
 	)
 	(wire
 		(pts
@@ -3375,13 +3032,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 106.68) (xy 217.17 106.68)
+			(xy 215.9 82.55) (xy 218.44 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bfa3de5-b300-4c1b-8dbf-9ac5668e7902")
+		(uuid "39721995-4f17-4af2-a37c-de7a73a988a9")
+	)
+	(wire
+		(pts
+			(xy 215.9 95.25) (xy 218.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6bc004-3034-476a-8403-d10ba158a1f9")
 	)
 	(wire
 		(pts
@@ -3395,26 +3062,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 260.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4018b416-9e0d-4969-85a8-da2f98700e9a")
-	)
-	(wire
-		(pts
-			(xy 214.63 71.12) (xy 214.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f38999-7b29-4ba7-bc13-20d4544b8e3c")
-	)
-	(wire
-		(pts
 			(xy 185.42 77.47) (xy 185.42 80.01)
 		)
 		(stroke
@@ -3425,16 +3072,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 208.28 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497b300a-e505-47fa-bdcb-737cdf73669f")
-	)
-	(wire
-		(pts
 			(xy 38.1 58.42) (xy 40.64 58.42)
 		)
 		(stroke
@@ -3442,16 +3079,6 @@
 			(type default)
 		)
 		(uuid "4b66448a-4610-4827-8c3f-1344da0d0931")
-	)
-	(wire
-		(pts
-			(xy 257.81 106.68) (xy 260.35 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da0f02c-f562-4fb0-97ec-dfbadafc9b09")
 	)
 	(wire
 		(pts
@@ -3475,36 +3102,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 123.19) (xy 208.28 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "549fd0b9-1703-4c2a-83e7-67c753ac02d8")
-	)
-	(wire
-		(pts
-			(xy 251.46 102.87) (xy 251.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54cacbe5-8d28-4cac-af53-1ae0d0497c8a")
-	)
-	(wire
-		(pts
-			(xy 214.63 127) (xy 217.17 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56fe6de2-0e60-40a6-9125-35c2a06ede77")
-	)
-	(wire
-		(pts
 			(xy 38.1 81.28) (xy 40.64 81.28)
 		)
 		(stroke
@@ -3515,33 +3112,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 128.27) (xy 214.63 127)
+			(xy 215.9 90.17) (xy 218.44 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d65c6eb-7d5d-45a5-8b93-d2503999be02")
+		(uuid "5a554963-01ce-42ff-bfbc-b3d704fec569")
 	)
 	(wire
 		(pts
-			(xy 257.81 127) (xy 260.35 127)
+			(xy 215.9 97.79) (xy 218.44 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d7c515f-7c70-40af-8570-207a071022d6")
-	)
-	(wire
-		(pts
-			(xy 208.28 102.87) (xy 208.28 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b6915a-5876-4e19-aad3-23976534b063")
+		(uuid "6e8ccdb5-c34e-48fe-8f6b-d649c8329256")
 	)
 	(wire
 		(pts
@@ -3552,36 +3139,6 @@
 			(type default)
 		)
 		(uuid "6fca090c-54c5-48eb-987f-36d3e63e0040")
-	)
-	(wire
-		(pts
-			(xy 256.54 69.85) (xy 259.08 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74c1b979-f1a7-4c69-98b2-dddd72db2ab3")
-	)
-	(wire
-		(pts
-			(xy 251.46 123.19) (xy 251.46 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77f37220-a139-4ee6-a6c4-1870f63ba880")
-	)
-	(wire
-		(pts
-			(xy 251.46 104.14) (xy 260.35 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa55642-82df-402e-b8ab-3a1db4d350e0")
 	)
 	(wire
 		(pts
@@ -3605,16 +3162,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 128.27) (xy 257.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94108fe5-7ce5-4609-bf78-00cae4180c84")
-	)
-	(wire
-		(pts
 			(xy 133.35 97.79) (xy 133.35 100.33)
 		)
 		(stroke
@@ -3622,16 +3169,6 @@
 			(type default)
 		)
 		(uuid "9a84e8b6-843d-44d8-966b-c546dd00a1f5")
-	)
-	(wire
-		(pts
-			(xy 257.81 107.95) (xy 257.81 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2f396c-1469-4e95-9bd9-88fbc15cccf2")
 	)
 	(wire
 		(pts
@@ -3665,16 +3202,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 208.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abe3968b-a75a-4767-a239-d76aadf2a09f")
-	)
-	(wire
-		(pts
 			(xy 198.12 36.83) (xy 198.12 39.37)
 		)
 		(stroke
@@ -3695,16 +3222,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 124.46) (xy 217.17 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2fa7eed-c09a-479a-b82d-8fa581bfd3d3")
-	)
-	(wire
-		(pts
 			(xy 38.1 78.74) (xy 40.64 78.74)
 		)
 		(stroke
@@ -3715,13 +3232,33 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 107.95) (xy 214.63 106.68)
+			(xy 189.23 100.33) (xy 182.88 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6c42557-03b7-420f-adee-91c34b630d92")
+		(uuid "b662d525-590b-4eb6-9f69-7d9213d7228b")
+	)
+	(wire
+		(pts
+			(xy 215.9 92.71) (xy 218.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f810ba-953f-4462-8489-ce8c2aa18648")
+	)
+	(wire
+		(pts
+			(xy 189.23 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d86248-533e-497c-b57c-8b19cd757e06")
 	)
 	(wire
 		(pts
@@ -3735,6 +3272,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 100.33) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c130d9e1-e5dc-4e93-9004-fb9ca88d17e4")
+	)
+	(wire
+		(pts
 			(xy 85.09 46.99) (xy 87.63 46.99)
 		)
 		(stroke
@@ -3742,16 +3289,6 @@
 			(type default)
 		)
 		(uuid "c783312e-584e-4728-bc49-24497515619b")
-	)
-	(wire
-		(pts
-			(xy 256.54 71.12) (xy 256.54 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd769658-09dd-41ae-ac2b-af82e51b276f")
 	)
 	(wire
 		(pts
@@ -3775,26 +3312,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 66.04) (xy 250.19 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4111bbc-e1f1-4a42-807d-1dedfea144d7")
-	)
-	(wire
-		(pts
-			(xy 208.28 86.36) (xy 217.17 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e41a1c42-feaa-4a78-a520-e2fbdb3dc754")
-	)
-	(wire
-		(pts
 			(xy 85.09 49.53) (xy 85.09 46.99)
 		)
 		(stroke
@@ -3803,29 +3320,9 @@
 		)
 		(uuid "ecba1d71-edc5-4687-a787-be99d535a8a8")
 	)
-	(wire
-		(pts
-			(xy 250.19 67.31) (xy 259.08 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eccc21e0-3360-480a-a6b8-c5de167a4932")
-	)
-	(wire
-		(pts
-			(xy 208.28 67.31) (xy 217.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec2f5fd-79b9-4592-8fa9-a78c75a474b7")
-	)
 	(image
-		(at 91.44 160.02)
-		(scale 1.36978)
+		(at 68.58 161.29)
+		(scale 1.01075)
 		(uuid "90eac1cc-8b8e-483d-833f-4a30b288c470")
 		(data "iVBORw0KGgoAAAANSUhEUgAABQoAAAMYCAYAAACDk9ryAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzsvXmcXFWZ//++S629dzqdTifphKxkISEhIQFkCMigguyETUEc8cuIDjIjzvhV5zc6A+Iygws4"
@@ -14056,15 +13553,15 @@
 			"REREBOD/AxvKTFMBNTOFAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "PWM_M2"
-		(at 217.17 83.82 180)
+	(label "PWM_M5"
+		(at 87.63 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0256f655-f3e2-464e-93f1-f08a46354e71")
+		(uuid "025c07e2-38e9-44ed-b124-4c4c57e829d3")
 	)
 	(label "GPI45"
 		(at 170.18 95.25 180)
@@ -14075,16 +13572,6 @@
 			(justify right bottom)
 		)
 		(uuid "0286fe07-fc8e-4a99-a469-d9ba00f9b375")
-	)
-	(label "PWM_M5"
-		(at 87.63 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03cb3adf-460b-4f57-8aac-e62d24393e4f")
 	)
 	(label "GPI48"
 		(at 170.18 97.79 180)
@@ -14106,6 +13593,16 @@
 		)
 		(uuid "04e3cec3-8e49-481e-8eaf-e545db83be26")
 	)
+	(label "PWM_M2"
+		(at 215.9 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "056bc511-d147-42f2-90c2-756a1be5abc9")
+	)
 	(label "GPIO18"
 		(at 182.88 97.79 0)
 		(effects
@@ -14116,16 +13613,6 @@
 		)
 		(uuid "07b8c91c-3961-404d-a528-22c27680f065")
 	)
-	(label "GPIO46"
-		(at 87.63 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09799f2e-2f5b-4617-ad9e-388de76bc20d")
-	)
 	(label "GPIO2"
 		(at 170.18 82.55 180)
 		(effects
@@ -14135,16 +13622,6 @@
 			(justify right bottom)
 		)
 		(uuid "0e8d8ad2-a1c2-4a2f-9f92-4abd543b8739")
-	)
-	(label "PWM_M3"
-		(at 217.17 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15b8a4e9-d717-4374-8618-5f286d8d0900")
 	)
 	(label "PWM_M1"
 		(at 87.63 54.61 180)
@@ -14166,6 +13643,16 @@
 		)
 		(uuid "1bf4cdea-ffd5-4f15-b3ff-90ed558ab09b")
 	)
+	(label "PWM_M1"
+		(at 215.9 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21d1b530-3bdd-4270-a86a-58549228dbac")
+	)
 	(label "GPIO2"
 		(at 133.35 57.15 0)
 		(effects
@@ -14186,15 +13673,25 @@
 		)
 		(uuid "25493bc1-e088-431a-894e-55d6209eda90")
 	)
-	(label "INT"
-		(at 87.63 85.09 180)
+	(label "PWM_M5"
+		(at 215.9 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "299c155c-906a-403a-a538-4d113836e8c5")
+		(uuid "267540f4-dfa1-46b7-912b-acdebff9f528")
+	)
+	(label "FLAG"
+		(at 245.11 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "277b7879-601a-4b33-99a5-879ef9e563f3")
 	)
 	(label "GPIO15"
 		(at 182.88 90.17 0)
@@ -14236,15 +13733,15 @@
 		)
 		(uuid "3b636d01-ee9e-4697-b726-0a0873690a1b")
 	)
-	(label "PWM_M8"
-		(at 87.63 95.25 180)
+	(label "PWM_M7"
+		(at 215.9 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "4123466b-a8e5-4d78-baa5-49309b1a7a0a")
+		(uuid "3c886a8a-ca3d-450c-8faf-feda76f7f36b")
 	)
 	(label "SCL"
 		(at 87.63 82.55 180)
@@ -14256,17 +13753,7 @@
 		)
 		(uuid "4239afd8-0417-4946-a76f-e56fa1bf6409")
 	)
-	(label "PWM_M6"
-		(at 260.35 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46783b7b-a9ec-4c80-825c-7e8323d88c3e")
-	)
-	(label "GPIO19_USB_D-"
+	(label "USB_D-"
 		(at 133.35 95.25 0)
 		(effects
 			(font
@@ -14275,6 +13762,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c0463d6-fe45-443c-a167-f9b7b7194908")
+	)
+	(label "PWM_M6"
+		(at 215.9 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d1f7ce9-95b7-4c63-b737-295c3372cc89")
 	)
 	(label "PWM_M3"
 		(at 87.63 59.69 180)
@@ -14296,35 +13793,25 @@
 		)
 		(uuid "50fb3149-44bb-4f2f-8f72-43530094d28d")
 	)
-	(label "PWM_M7"
-		(at 87.63 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5126a691-e1a5-4a2b-a4a7-6f9dd10d9ed3")
-	)
-	(label "GPIO20_USB_D+"
-		(at 182.88 100.33 0)
+	(label "USB_D-"
+		(at 189.23 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "55d11dd5-73ea-40d1-9b1c-ad949450abee")
+		(uuid "51098729-68d3-4add-a792-659e5dad8ab8")
 	)
-	(label "PWM_M4"
-		(at 217.17 121.92 180)
+	(label "PWM_M7"
+		(at 87.63 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5b2c887a-7c49-4f2b-b8b3-4761b5924f23")
+		(uuid "59d6a8ca-56d9-49e9-a458-19bd52cc2914")
 	)
 	(label "GPI47"
 		(at 170.18 100.33 180)
@@ -14366,6 +13853,16 @@
 		)
 		(uuid "6f53c6c9-1ab8-485b-a3c9-a277da0edf5a")
 	)
+	(label "PWM_M6"
+		(at 87.63 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ffe6f94-644c-4606-8078-466be3d4d0c5")
+	)
 	(label "MTDI_GPIO41"
 		(at 133.35 62.23 0)
 		(effects
@@ -14375,6 +13872,16 @@
 			(justify left bottom)
 		)
 		(uuid "7328c0f8-20fb-4e2a-a781-0cb65de1dce2")
+	)
+	(label "INT"
+		(at 87.63 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ef42cbe-2bfb-40cf-869d-f85c6fdc71bd")
 	)
 	(label "MTDO_GPIO40"
 		(at 170.18 90.17 180)
@@ -14406,16 +13913,6 @@
 		)
 		(uuid "858c2e42-54b7-462e-8b32-9c883b959386")
 	)
-	(label "PWM_M8"
-		(at 260.35 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8acf5c66-afcf-4a9f-afb9-4b5651a03470")
-	)
 	(label "INT"
 		(at 195.58 44.45 0)
 		(effects
@@ -14446,45 +13943,25 @@
 		)
 		(uuid "9c77965d-1b26-4602-804c-bb5992aefa0e")
 	)
-	(label "PWM_M6"
-		(at 87.63 90.17 180)
+	(label "FLAG"
+		(at 87.63 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9e8fab54-063a-42cf-a678-7d27440dca2a")
+		(uuid "ab056a30-3d95-48c9-b4a1-285719375123")
 	)
-	(label "PWM_M1"
-		(at 217.17 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b407e38c-3fb4-4016-ba27-7e6bfb4a54e2")
-	)
-	(label "PWM_M7"
-		(at 260.35 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5a8faff-0062-4a81-801f-d0372e9c0bac")
-	)
-	(label "GPIO19_USB_D-"
-		(at 182.88 102.87 0)
+	(label "USB_D+"
+		(at 189.23 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bd754680-80df-47d1-9d81-3cfe7f940b0c")
+		(uuid "b1edaf4e-fc87-48cb-9ad8-d31c567fc51f")
 	)
 	(label "GPIO1"
 		(at 133.35 54.61 0)
@@ -14506,6 +13983,26 @@
 		)
 		(uuid "c0c7889c-0436-4d68-9ebc-418185f9d5fa")
 	)
+	(label "GPIO14"
+		(at 87.63 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c13a9b41-4af5-44bc-9a6d-61f964df517f")
+	)
+	(label "PWM_M4"
+		(at 215.9 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c92b3340-4d25-44f6-a5ce-f9fb45ad8c66")
+	)
 	(label "GPI45"
 		(at 133.35 82.55 0)
 		(effects
@@ -14515,6 +14012,16 @@
 			(justify left bottom)
 		)
 		(uuid "ccc47fd3-38ca-46ef-9ee5-afde68428b97")
+	)
+	(label "PWM_M8"
+		(at 87.63 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d08906bd-7c18-425b-a3c6-38c64c18b872")
 	)
 	(label "GPIO21"
 		(at 133.35 90.17 0)
@@ -14536,6 +14043,16 @@
 		)
 		(uuid "d825eeb6-2d80-4ba5-9552-1867d645a78f")
 	)
+	(label "FLAG"
+		(at 182.88 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc167ba-a5a7-4751-8c6b-1c511f08a9e4")
+	)
 	(label "MTMS_GPIO42"
 		(at 133.35 59.69 0)
 		(effects
@@ -14556,37 +14073,7 @@
 		)
 		(uuid "e1dd46b2-44da-4b68-8dc2-7be31bff7f19")
 	)
-	(label "GPIO46"
-		(at 182.88 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5da6daa-fa5f-48fc-be74-3b93a4fda7b3")
-	)
-	(label "GPIO3"
-		(at 87.63 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e81fc91c-6f7a-493a-acbb-20e7d18b82f3")
-	)
-	(label "PWM_M5"
-		(at 259.08 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eec9c63f-fe8b-4e19-b495-dcbf15128328")
-	)
-	(label "GPIO3"
+	(label "GPIO14"
 		(at 182.88 85.09 0)
 		(effects
 			(font
@@ -14606,7 +14093,7 @@
 		)
 		(uuid "f3df0b05-439b-44ea-b6aa-96b3b157d081")
 	)
-	(label "GPIO20_USB_D+"
+	(label "USB_D+"
 		(at 133.35 92.71 0)
 		(effects
 			(font
@@ -14615,6 +14102,16 @@
 			(justify left bottom)
 		)
 		(uuid "f68249eb-8b37-4947-be34-8e6b6fef441c")
+	)
+	(label "PWM_M8"
+		(at 215.9 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb9b32d4-ded7-4434-a220-672877685e09")
 	)
 	(label "GPIO16"
 		(at 87.63 67.31 180)
@@ -14635,6 +14132,16 @@
 			(justify right bottom)
 		)
 		(uuid "fde44651-33ce-4d5b-8fe9-5af36ae4b207")
+	)
+	(label "PWM_M3"
+		(at 215.9 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fea19a5b-4cc1-4ded-8d42-7597d6aa71a2")
 	)
 	(symbol
 		(lib_id "bio-robot:MountingHoleM3")
@@ -14664,7 +14171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "bio-robot:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 208.28 30.48 0)
 			(effects
 				(font
@@ -14792,7 +14299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
+		(property "Footprint" "bio-robot:PinSocket_2x10_P2.54mm_Vertical"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -14889,72 +14396,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 257.81 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17ef6222-dfb7-4275-9046-91875efd180c")
-		(property "Reference" "#PWR025"
-			(at 257.81 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 257.683 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 257.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba380d95-dd8d-473c-b74b-85643b5baf3e")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 105.41 0)
 		(unit 1)
@@ -15015,72 +14456,6 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 208.28 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b7c5bce-d189-4f87-b4f8-53b9b3a62fcb")
-		(property "Reference" "#PWR016"
-			(at 208.28 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 208.28 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 208.28 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20e09636-6594-47b3-9b42-5505243dac66")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15372,72 +14747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 256.54 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d7d8611-11a5-4a4f-be69-e88b0dfe74f1")
-		(property "Reference" "#PWR021"
-			(at 256.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 256.413 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 256.54 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3931b1fc-1256-4454-9085-9ea28c77d1c8")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 104.14 0)
 		(unit 1)
@@ -15504,79 +14813,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 224.79 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35aae7cb-05fa-457a-9876-4bfb1b864de5")
-		(property "Reference" "M3"
-			(at 233.68 102.4368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 233.68 104.9768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 224.79 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 224.79 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 224.79 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57ec356f-bd9d-45d4-8536-f1da74f663d9")
-		)
-		(pin "1"
-			(uuid "ab43ce53-4bd6-4f33-8475-4ae9067260f2")
-		)
-		(pin "3"
-			(uuid "ad9c5e6a-c581-4513-9d14-60109dbed556")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bio-robot:MountingHoleM3")
 		(at 231.14 30.48 0)
 		(unit 1)
@@ -15604,7 +14840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "bio-robot:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 231.14 30.48 0)
 			(effects
 				(font
@@ -15635,225 +14871,6 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 267.97 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45c4f046-a2f5-4a1b-8d47-a02cc7c594ff")
-		(property "Reference" "M7"
-			(at 276.86 102.4368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 276.86 104.9768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 267.97 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 267.97 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 267.97 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "999d5f4d-b8b1-4a24-97b8-8d607513657f")
-		)
-		(pin "1"
-			(uuid "4a979784-dac1-4e4f-9099-dcf2144672fd")
-		)
-		(pin "3"
-			(uuid "0699029c-99f9-40ef-a935-f932295d2558")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 224.79 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53a5ec36-4372-4626-bf92-772d231df62b")
-		(property "Reference" "M1"
-			(at 233.68 65.6068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 233.68 68.1468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 224.79 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 224.79 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 224.79 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f9e5493-73ff-41f8-8d50-01b7af293fbf")
-		)
-		(pin "1"
-			(uuid "e0963cad-3c69-4a1d-b7dd-608cef1674be")
-		)
-		(pin "3"
-			(uuid "567fd3c6-39be-403b-bb7a-3b24cb58bda6")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 266.7 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58f21503-65d5-435c-ba29-a1e6c4680586")
-		(property "Reference" "M5"
-			(at 275.59 65.6068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 275.59 68.1468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 266.7 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 266.7 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d0fc04ce-b3b8-4861-9546-3d0ce46f39a5")
-		)
-		(pin "1"
-			(uuid "20a296d4-8a36-4fc5-b183-dba224b997c7")
-		)
-		(pin "3"
-			(uuid "47dba62c-3f89-4d8b-acaf-a746558d0c41")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M5")
 					(unit 1)
 				)
 			)
@@ -15920,72 +14937,6 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 208.28 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b3665d6-daee-4cb6-a58b-420dcd918682")
-		(property "Reference" "#PWR018"
-			(at 208.28 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 208.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "232fadec-4ba9-407d-b0c3-8cf55cddac4c")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -16124,284 +15075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 267.97 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f09e2a7-0efe-4d61-be00-23f83346a859")
-		(property "Reference" "M6"
-			(at 276.86 84.6568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 276.86 87.1968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 267.97 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 267.97 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 267.97 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "474b4802-bd15-4624-8d66-3faa85c26ce2")
-		)
-		(pin "1"
-			(uuid "cce91508-53c8-47d8-8ee8-2a6b54c9b335")
-		)
-		(pin "3"
-			(uuid "aa2af19b-aac8-4429-abaf-02c240977bfb")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 251.46 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68a06d8b-c874-4fc7-a575-195d9d6e4f16")
-		(property "Reference" "#PWR022"
-			(at 251.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 251.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2558683-061b-43c9-ba56-0da1146d8e14")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 250.19 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b92c4ba-b8c9-48e4-a368-0d493a373dd5")
-		(property "Reference" "#PWR020"
-			(at 250.19 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 250.19 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 250.19 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ed02f74-9405-4970-b072-4f55119847d6")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 224.79 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cdd752c-6f55-47a9-a645-c8516b12eb36")
-		(property "Reference" "M2"
-			(at 233.68 84.6568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 233.68 87.1968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 224.79 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 224.79 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 224.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a01a9baa-aab7-4ff7-8c61-6b94d7014761")
-		)
-		(pin "1"
-			(uuid "deea8688-3eb0-4282-ae89-e6fe89b7f754")
-		)
-		(pin "3"
-			(uuid "177989dc-6982-4042-9729-245ccce32d88")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bio-robot:Screw_Terminal_01x02")
 		(at 33.02 55.88 0)
 		(mirror y)
@@ -16429,7 +15102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "bio-robot:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 33.02 55.88 0)
 			(effects
 				(font
@@ -16472,72 +15145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 214.63 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77f740c2-18e7-4e3d-8d6f-b66832598a04")
-		(property "Reference" "#PWR019"
-			(at 214.63 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 214.503 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 214.63 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22e7b601-b4ed-4fec-8584-b9a25c808038")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bio-robot:MountingHoleM3")
 		(at 231.14 39.37 0)
 		(unit 1)
@@ -16565,7 +15172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "bio-robot:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 231.14 39.37 0)
 			(effects
 				(font
@@ -16596,145 +15203,6 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 257.81 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7951977f-6190-4865-875f-5c49434f4595")
-		(property "Reference" "#PWR027"
-			(at 257.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 257.683 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 257.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94c56601-04ad-43f4-ae33-b0fc7d45e74a")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 224.79 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "840a3856-3ca8-441f-b269-678e1e344a6a")
-		(property "Reference" "M4"
-			(at 233.68 122.7568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 233.68 125.2968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 224.79 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 224.79 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 224.79 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "218fd19a-6087-4639-90df-207984b9ebe8")
-		)
-		(pin "1"
-			(uuid "57cc6c54-733f-43cc-b114-87185bd2123d")
-		)
-		(pin "3"
-			(uuid "4dd1fa48-91cf-4025-9eb9-90631e05fafc")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -16807,79 +15275,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bio-robot:Motor_Servo")
-		(at 267.97 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92506940-c8ba-4fb5-a167-720484d96493")
-		(property "Reference" "M8"
-			(at 276.86 122.7568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor_Servo"
-			(at 276.86 125.2968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 267.97 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 267.97 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 267.97 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eabb4fc6-79af-4684-9b70-0c9d9cb84090")
-		)
-		(pin "1"
-			(uuid "1812cbf1-82b3-46dc-ad38-52b5167dffa5")
-		)
-		(pin "3"
-			(uuid "371ff4f7-a114-4dfa-b7dd-b662153acf17")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "M8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 40.64 53.34 0)
 		(unit 1)
@@ -16940,72 +15335,6 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 208.28 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6552a5f-227a-4f37-ba19-82f52fb3b74b")
-		(property "Reference" "#PWR012"
-			(at 208.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 208.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 208.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "637f9e7e-a3d4-4751-9d87-b3b2fbf42da9")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -17078,72 +15407,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+6V")
-		(at 251.46 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b26e0784-f982-4b0a-9d67-813befac8b38")
-		(property "Reference" "#PWR024"
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 251.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 251.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6edfe2dd-6093-41f8-8b81-488f7ff56606")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 59.69 0)
 		(unit 1)
@@ -17204,138 +15467,6 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 251.46 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c26fd7c8-1dbb-4b09-8bbc-d056dc0abcb4")
-		(property "Reference" "#PWR026"
-			(at 251.46 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 251.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 251.46 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "889564be-3d0e-4140-a7c9-890e4ce226e9")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 214.63 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c50e8ec4-3729-4bc5-8197-7a8e76cc0d34")
-		(property "Reference" "#PWR017"
-			(at 214.63 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 214.503 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 214.63 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3374ff3-d238-482c-ae1a-8d810491896e")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17662,7 +15793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+		(property "Footprint" "bio-robot:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 33.02 78.74 0)
 			(effects
 				(font
@@ -17699,204 +15830,6 @@
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+6V")
-		(at 208.28 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4a97c6f-33e3-44ea-b3f0-283b81beb879")
-		(property "Reference" "#PWR014"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+6.8V"
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
-			(at 208.28 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e140f5fb-4b28-4a5d-84db-8d39cd532390")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 214.63 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea5fe1af-dd6d-4d17-8bf2-351192c48a52")
-		(property "Reference" "#PWR013"
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 214.503 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 214.63 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "013fbf58-3246-4b2b-9565-14725091a207")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 257.81 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f75bf95d-bd8a-4566-b9a8-27e5db5793c8")
-		(property "Reference" "#PWR023"
-			(at 257.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 257.683 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 257.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b536c99a-2842-4b99-8233-648a79e32f5c")
-		)
-		(instances
-			(project "servo-board"
-				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18062,7 +15995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "bio-robot:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 208.28 39.37 0)
 			(effects
 				(font
@@ -18098,68 +16031,134 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 214.63 90.17 0)
-		(unit 1)
+	(sheet
+		(at 218.44 78.74)
+		(size 24.13 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc7e3885-728a-453a-a202-7ac501580a16")
-		(property "Reference" "#PWR015"
-			(at 214.63 95.25 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5da5277-9694-44bd-843d-3b8fe3f1bce3")
+		(property "Sheetname" "servos"
+			(at 218.44 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 214.503 93.98 0)
+		(property "Sheetfile" "servos.kicad_sch"
+			(at 218.44 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.63 91.44 0)
+		(pin "PWM_M1" input
+			(at 218.44 82.55 180)
+			(uuid "c848c830-9a68-4ae9-9146-110b6cb5d5ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 214.63 91.44 0)
+		(pin "PWM_M2" input
+			(at 218.44 85.09 180)
+			(uuid "35286171-e8b5-478f-972e-41240293d462")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 214.63 90.17 0)
+		(pin "PWM_M4" input
+			(at 218.44 90.17 180)
+			(uuid "61b809a7-1608-4280-b74a-571ebbf01278")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(pin "1"
-			(uuid "3c19038d-8de3-4b54-a8b7-76a91912e0c8")
+		(pin "PWM_M3" input
+			(at 218.44 87.63 180)
+			(uuid "c0485d5c-153b-40a1-88d4-768909f29918")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_M5" input
+			(at 218.44 92.71 180)
+			(uuid "0fff5b5f-f434-45f6-89be-53154fa368da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_M6" input
+			(at 218.44 95.25 180)
+			(uuid "ed077d74-b1eb-48df-a6c3-bb5eca4a7ef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_M8" input
+			(at 218.44 100.33 180)
+			(uuid "95e9f298-e3f3-4d75-a570-82f6ef76b83d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_M7" input
+			(at 218.44 97.79 180)
+			(uuid "ac90c366-70e3-4be8-a1f6-f46af49b056e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLAG" output
+			(at 242.57 90.17 0)
+			(uuid "e68c7076-0e35-427c-96f6-c31d526455fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
 		(instances
 			(project "servo-board"
 				(path "/06885edb-c921-425f-9c23-9a632279b786"
-					(reference "#PWR015")
-					(unit 1)
+					(page "2")
 				)
 			)
 		)
