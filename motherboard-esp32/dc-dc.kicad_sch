@@ -15,8 +15,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 15.24 -7.62 90)
+			(property "Reference" "C6"
+				(at 2.0573 3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -27,7 +27,7 @@
 				)
 			)
 			(property "Value" "16SVPF180M"
-				(at 17.78 -7.62 90)
+				(at 4.5973 3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -62,6 +62,28 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C136277"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "SMD,D6.3xL5.9mm "
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -315,8 +337,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 15.875 -3.81 90)
+			(property "Reference" "C1"
+				(at -1.27 1.27 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -349,7 +371,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "25SVPF100M"
+			(property "Datasheet" ""
 				(at -4.445 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -384,6 +406,28 @@
 				)
 			)
 			(property "JLC Extended" "yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "C136279"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "25SVPF100M"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -648,8 +692,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 6.35 8.89 0)
+			(property "Reference" "L1"
+				(at 7.62 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -659,7 +703,7 @@
 				)
 			)
 			(property "Value" "27uH"
-				(at 6.985 6.35 0)
+				(at 7.62 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -693,6 +737,28 @@
 				)
 			)
 			(property "Description" "4.2A 27uH ±20% 32mΩ 4.2A SMD Power Inductors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CDRH127/LDNP-220MC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C167262"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1020,26 +1086,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "C4"
+				(at 7.62 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "0.1u"
-				(at 0.635 -2.54 0)
+				(at 5.08 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "bio-robot:C_0603_1608Metric"
@@ -1241,8 +1305,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "C2"
+				(at 3.81 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1253,7 +1317,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 0.635 -2.54 0)
+				(at 3.81 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1462,8 +1526,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 3.81 1.27 0)
+			(property "Reference" "C3"
+				(at 3.81 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1474,7 +1538,7 @@
 				)
 			)
 			(property "Value" "2.2u"
-				(at 3.81 -1.27 0)
+				(at 3.81 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1639,8 +1703,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(property "Reference" "C5"
+				(at 3.81 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1651,7 +1715,7 @@
 				)
 			)
 			(property "Value" "30p"
-				(at 0.635 -2.54 0)
+				(at 3.81 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1846,26 +1910,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -2.54 8.89 0)
+			(property "Reference" "U1"
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "LMR23630AFDDAR"
-				(at -7.62 11.43 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "bio-robot:TI_SO-PowerPAD-8_ThermalVias"
@@ -1893,6 +1955,39 @@
 				)
 			)
 			(property "Description" "36, 3A SIMPLE SWITCHER 8-PowerSOIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C601653"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LMR23630AFDDAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "SO-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2217,24 +2312,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "R6"
+				(at 2.54 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "22.1k"
-				(at 0 0 90)
+				(at 2.54 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "bio-robot:R_0603_1608Metric"
@@ -2270,7 +2367,7 @@
 					)
 				)
 			)
-			(property "MPN" "0603WAF4752T5E"
+			(property "MPN" "RC0603FR-0722K1L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2281,7 +2378,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2314,7 +2411,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C23061"
+			(property "LCSC" "C137768"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2412,24 +2509,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "R5"
+				(at 2.54 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "88.7k"
-				(at 0 0 90)
+				(at 2.54 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "bio-robot:R_0603_1608Metric"
@@ -2465,7 +2564,7 @@
 					)
 				)
 			)
-			(property "MPN" "0603WAF4752T5E"
+			(property "MPN" "0603WAF8872T5E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2509,7 +2608,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C23061"
+			(property "LCSC" "C23258"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5508,6 +5607,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C136277"
+			(at 148.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "SMD,D6.3xL5.9mm "
+			(at 148.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dadeea19-69b0-47e7-bc35-2c530175c7f4")
 		)
@@ -5979,6 +6100,28 @@
 				)
 			)
 		)
+		(property "MPN" "CDRH127/LDNP-220MC"
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C167262"
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0d670b7-67d1-4750-b7e5-3ca4c143fca4")
 		)
@@ -6351,7 +6494,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 210.82 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6743,7 +6886,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF4752T5E"
+		(property "MPN" "RC0603FR-0722K1L"
 			(at 139.7 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6754,7 +6897,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6787,7 +6930,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23061"
+		(property "LCSC" "C137768"
 			(at 139.7 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7571,7 +7714,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+6.8V\""
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
 			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7651,6 +7794,39 @@
 			)
 		)
 		(property "Description" "36, 3A SIMPLE SWITCHER 8-PowerSOIC"
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C601653"
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LMR23630AFDDAR"
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "SO-8"
 			(at 82.55 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7764,7 +7940,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF4752T5E"
+		(property "MPN" "0603WAF8872T5E"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7808,7 +7984,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23061"
+		(property "LCSC" "C23258"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7988,49 +8164,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group "5V 3A Buck Converter"
-		(uuid "b07f795b-b49c-424f-94c0-557ad9175adb")
-		(lib_id "design-block:5V 3A Buck Converter")
-		(members "00bd5588-fc4f-4886-b1d0-c6878c2c6e5f" "01a324bc-0e3d-44c2-8785-f31c1a2df417"
-			"05c4bdfd-92a1-4b01-a9fb-96dd1d33adec" "06121eac-75a2-4520-bed5-4f125f3de31e"
-			"062f0849-7912-43ea-9035-92916df6ace8" "0f8edf2a-23d4-4bae-a8bd-a250cb78da08"
-			"0fd6108a-1cae-4a7f-a061-b9c858b124fa" "14e30c31-08aa-414b-9c97-e0906d3c0dcb"
-			"24100b78-cab9-4066-b07d-56fd4d2802ba" "2f133d40-5ae2-460d-8a35-0e4c165f94aa"
-			"2f425d2b-d105-4871-b872-e713798c8908" "3302f42b-6179-4dc1-86f6-5abb1ed005be"
-			"33ac2d7d-8225-4af2-80c8-cbbb59f1da4f" "3411bb11-e06b-497b-a965-0113f1d3320b"
-			"35c6da0c-d9f7-40e2-bef4-c6401e99533c" "3d9c9324-2515-437c-a8c3-58ae5792d233"
-			"416741de-4b8e-4287-8914-7c18140ae61b" "42151860-a5a4-41de-8000-ff35535f6092"
-			"435d1b0f-c8d8-466a-b313-d1b887514fcd" "467a7723-2c6f-4c7a-9ada-da9500f04902"
-			"487e6c62-ae6d-47c3-a8a7-3d798a3ea529" "4ee49fa1-fcb7-45d9-95f3-a397a5e0ed25"
-			"50dc41f8-c2e2-4bc6-b13a-f9458cfc8eef" "52db5f26-8656-4327-bd01-6ce0a7687232"
-			"5d4d16fc-8cb1-4ee1-9f3b-3a03ca9db76f" "654ea281-f988-4cb1-92ce-415cd3d58c92"
-			"659cedd7-8489-4ad2-b0a6-6b9ca81e3c50" "6877b07a-8489-4ec3-9ffb-2a3aab6ce4c1"
-			"69d72c95-cb37-4b7e-9982-439b3536a789" "6f12ad7e-69b9-4638-b66b-eb7c23f73bc2"
-			"71328c46-006d-46d8-a576-8d76ea34eec4" "752cbef7-347f-4cdc-9ce2-d3b5b0be9b5c"
-			"758e8236-0405-4752-936b-77ed2ca5a2c0" "76b3611a-a33b-45e0-995a-d0352f495e8f"
-			"7b0940c8-dca0-4885-a10a-a5f2f2699f73" "7bfa6647-9c30-4375-8a7e-42fa2a29936a"
-			"7d4c9cb2-561b-4caf-897e-b87a568fe6af" "7ecb239b-a9f8-4927-a3fb-41b0905f36c7"
-			"8351bc90-eff7-44dd-a52b-2455077a6884" "844aef78-13ed-4fb0-9419-3af12cc48540"
-			"851286a3-f903-4a1b-b98c-58ae624c3b41" "859635dc-fc9c-4059-915a-318786cb4a7d"
-			"8b588c3a-baf7-4ffe-83c2-8db50eabcad7" "8c397448-899c-407e-8201-9f7fb2ac0e7a"
-			"8ee33ab0-063c-46ca-bc54-7505e845f970" "9ab4511a-ddd1-4234-8532-0368144678f1"
-			"9fa7a82c-b72b-436d-ac03-00dac254dc39" "9ff7ea17-c544-4c30-aa28-554c70ee5199"
-			"af515fd6-f00c-48fc-be49-b5528efad9f5" "b128f005-8a4d-4d12-8e28-33160c4996dd"
-			"b1f81039-33fb-4067-b8a5-781e99a41ce2" "b7cde8f2-dd0f-4ea5-9e49-9992fb0a5cc2"
-			"bbf73491-7d88-460c-a9b9-8e6236c37c44" "bf6d74ee-045f-4aa4-bb79-de5edf854690"
-			"c74e64b4-65a5-4f61-8886-2c0612877dfa" "c943cc66-d545-4b97-9e4d-49ef55e3e5ac"
-			"cb3f140c-cb29-4fdc-9d4a-6d7a03c71f68" "cd49f865-2469-478f-86af-4f3c5224264a"
-			"cd92f93c-75b4-42fb-8cfe-a723b8d98600" "ce83cbce-e5e9-4f63-8f37-7f8cd2cee151"
-			"cfdb2080-47ad-4b08-96bf-42787d36fd83" "d00877f7-6523-45e0-b1b2-ddc4d1a138f1"
-			"d25d0572-c08e-4039-8262-03707de81bbe" "d3d50dbd-694d-45b7-bb66-a116b39d9737"
-			"d4b34a25-3002-4dfd-b17a-0f49d1f05008" "d8761522-f0b6-45ed-a2e4-0e8c08fcbd2b"
-			"dbcf2dad-dfaa-4292-8628-76d26babb636" "e1773c38-0329-4ef9-b159-c902fd661ceb"
-			"ec5ed6fd-79b0-4bbf-b5f4-257754b8844e" "ed96274a-9408-4cee-a5ae-2ee0ef8f60db"
-			"eea29928-fae5-41e1-b21d-a7f995963999" "f82fc692-b69a-4ef1-899c-248fb7f6a9a2"
-			"f8a55b6b-a58d-4675-9489-28fe96ddc293" "fc7bf563-8f9c-4807-aa59-123fb3c41f95"
-			"fcc2161b-ff1f-4e46-8147-59bd16ca5fe1"
 		)
 	)
 )

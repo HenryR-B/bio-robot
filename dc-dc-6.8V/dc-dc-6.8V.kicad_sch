@@ -888,6 +888,227 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bio-robot:C_22u_1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C7"
+				(at 3.81 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22u_1206"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "bio-robot:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CL31A226KAHNNNE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0645"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C12891"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_22u_1206_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_22u_1206_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bio-robot:Cpol_82uF"
 			(body_styles demorgan)
 			(pin_names
@@ -2241,7 +2462,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bio-robot:Q_Nch60V46A"
+		(symbol "bio-robot:Q_Nch60V46A_SOIC8"
 			(pin_names
 				(hide yes)
 			)
@@ -2272,7 +2493,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "bots:DPAK-3_ONS"
+			(property "Footprint" "bio-robot:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 4.953 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2296,7 +2517,7 @@
 					)
 				)
 			)
-			(property "Description" "N-Channel 60 V 46A 71W Surface Mount D-Pak"
+			(property "Description" "N-Channel 30 V 23A 3.1W Surface Mount SOIC8"
 				(at -1.27 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2307,7 +2528,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C889915"
+			(property "LCSC" "C61955"
 				(at 1.016 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2318,7 +2539,7 @@
 					)
 				)
 			)
-			(property "MPN" " SVD5865NLT4G"
+			(property "MPN" "AO4354"
 				(at 1.016 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2329,7 +2550,7 @@
 					)
 				)
 			)
-			(property "JLC" "TO-252(DPAK)"
+			(property "JLC" "SOIC-8"
 				(at -0.254 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2362,7 +2583,7 @@
 					)
 				)
 			)
-			(symbol "Q_Nch60V46A_0_1"
+			(symbol "Q_Nch60V46A_SOIC8_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2460,6 +2681,18 @@
 				)
 				(polyline
 					(pts
+						(xy 2.54 3.81) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
@@ -2490,6 +2723,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -2528,12 +2773,36 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Q_Nch60V46A_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "Q_Nch60V46A_SOIC8_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2549,9 +2818,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -7.62 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2567,7 +2836,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -2577,6 +2846,96 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 6.35 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 6.35 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 6.35 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3755,227 +4114,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bots:C_22u_1206"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "22u_1206"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "bots:C_1206_3216Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL31A226KAHNNNE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Price" "0.0645"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLC" "0805"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C12891"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLC Extended" "no"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_22u_1206_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_22u_1206_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+6V"
 			(power global)
 			(pin_numbers
@@ -4387,6 +4525,12 @@
 		(uuid "0aaaf354-8f13-444a-8c15-0045c8c7ffb5")
 	)
 	(junction
+		(at 175.26 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24464d18-414d-4ee6-a9bd-f598ed5f2f2c")
+	)
+	(junction
 		(at 74.93 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4403,6 +4547,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d7d6e31-fe96-4d7f-9285-d01af47da80c")
+	)
+	(junction
+		(at 175.26 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fda2798-0881-4a72-9856-6ff387052d65")
 	)
 	(junction
 		(at 86.36 53.34)
@@ -4429,6 +4579,12 @@
 		(uuid "634e67c0-d128-42a9-bfe6-ee763567d090")
 	)
 	(junction
+		(at 175.26 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66718401-d823-4da0-9f52-4051b110c274")
+	)
+	(junction
 		(at 251.46 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4453,10 +4609,22 @@
 		(uuid "7a515556-6639-449c-9639-c9b510c7be24")
 	)
 	(junction
+		(at 175.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f68601f-e2b0-48ec-aaf6-efc39e09e448")
+	)
+	(junction
 		(at 74.93 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95ea7790-738f-4958-94ca-f7cfb53176ae")
+	)
+	(junction
+		(at 172.72 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44871d3-1ea6-48c0-b6c8-a5b1960bee7c")
 	)
 	(junction
 		(at 92.71 53.34)
@@ -4512,9 +4680,25 @@
 		(color 0 0 0 0)
 		(uuid "c312f2a0-4a52-4e72-b2a4-6e19dede3a49")
 	)
+	(junction
+		(at 172.72 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2d8a97c-4889-46ae-a109-db9cbc83db2c")
+	)
 	(no_connect
 		(at 97.79 86.36)
 		(uuid "54452071-78f8-420e-8706-a97c864a72da")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03561efd-6502-474c-9e24-d49bc5da80c0")
 	)
 	(wire
 		(pts
@@ -4525,6 +4709,26 @@
 			(type default)
 		)
 		(uuid "08ec380f-e01b-42ca-8742-039e042a56e1")
+	)
+	(wire
+		(pts
+			(xy 170.18 59.69) (xy 172.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08fbb391-5109-46de-b9ae-e4e33250c240")
+	)
+	(wire
+		(pts
+			(xy 172.72 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebfd3f9-b991-45e8-9e28-654400099aff")
 	)
 	(wire
 		(pts
@@ -4738,7 +4942,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 53.34) (xy 175.26 60.96)
+			(xy 175.26 53.34) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4755,6 +4959,16 @@
 			(type default)
 		)
 		(uuid "65b64615-1bc5-4e26-8e66-345ab78d3380")
+	)
+	(wire
+		(pts
+			(xy 175.26 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673cb1c4-de1b-48e5-87cb-5f43d4590e66")
 	)
 	(wire
 		(pts
@@ -4888,23 +5102,43 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 167.64 97.79)
+			(xy 172.72 106.68) (xy 175.26 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "979294a0-671e-4aaf-b40d-cf7bbaaf97a7")
+		(uuid "933e3db5-952c-40a6-9b1a-97298b6854f4")
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 157.48 102.87)
+			(xy 172.72 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93946a03-97fb-4d69-911f-8879dcbbe520")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 157.48 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a6421ee-0887-46ee-81ae-abadc64dd2c7")
+	)
+	(wire
+		(pts
+			(xy 175.26 73.66) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a852dad-60f6-4ab5-962c-42e68f407f0b")
 	)
 	(wire
 		(pts
@@ -4948,16 +5182,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 175.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55856d4-5c06-443a-abc4-906cf392d52e")
-	)
-	(wire
-		(pts
 			(xy 133.35 93.98) (xy 138.43 93.98)
 		)
 		(stroke
@@ -4975,6 +5199,16 @@
 			(type default)
 		)
 		(uuid "a5eb6b3f-feb0-4e22-a02a-94827c7404a4")
+	)
+	(wire
+		(pts
+			(xy 175.26 73.66) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85a6bcd-0a3b-4e6f-a2b6-cc524d334c2b")
 	)
 	(wire
 		(pts
@@ -4998,6 +5232,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 106.68) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af840634-77ba-4a19-973d-9ed604b81ca4")
+	)
+	(wire
+		(pts
 			(xy 53.34 53.34) (xy 59.69 53.34)
 		)
 		(stroke
@@ -5018,13 +5262,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 175.26 110.49)
+			(xy 172.72 92.71) (xy 175.26 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b66264db-1c19-42bf-89b3-264d3a741212")
+		(uuid "b618fb8b-cb18-4d21-88b5-683aec1d125e")
 	)
 	(wire
 		(pts
@@ -5045,16 +5289,6 @@
 			(type default)
 		)
 		(uuid "bf047633-a3f4-4b1e-87c5-950bdd8cd413")
-	)
-	(wire
-		(pts
-			(xy 175.26 86.36) (xy 175.26 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf312d5c-b89a-40bb-86d6-e0ae9e506200")
 	)
 	(wire
 		(pts
@@ -5088,6 +5322,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 92.71) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f6a36c-2ce9-4b58-b303-2ba13ce85614")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62a2819-5a24-49d9-8b6a-101118c5683e")
+	)
+	(wire
+		(pts
 			(xy 265.43 100.33) (xy 265.43 101.6)
 		)
 		(stroke
@@ -5105,6 +5359,16 @@
 			(type default)
 		)
 		(uuid "cc313542-65bf-474f-b4b8-688c8b02fb25")
+	)
+	(wire
+		(pts
+			(xy 177.8 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f5d359-8ec2-4a47-9bd1-7cfa7077e0c8")
 	)
 	(wire
 		(pts
@@ -5185,6 +5449,16 @@
 			(type default)
 		)
 		(uuid "e0fd1773-b945-428e-902e-89126f00ef75")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34eaa5e-44bf-4468-8ad1-80a540446114")
 	)
 	(wire
 		(pts
@@ -5367,7 +5641,7 @@
 		(uuid "cc532f12-d3c0-4443-bd88-f90d377be942")
 	)
 	(label "LG"
-		(at 160.02 97.79 0)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7208,6 +7482,141 @@
 		)
 	)
 	(symbol
+		(lib_id "bio-robot:Q_Nch60V46A_SOIC8")
+		(at 172.72 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7558bb0f-a97b-4f0a-8cdd-268ed1dea994")
+		(property "Reference" "Q2"
+			(at 179.07 98.4249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SVD5865NLT4G"
+			(at 179.07 100.9649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bio-robot:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 177.673 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
+			(at 170.942 93.726 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 30 V 23A 3.1W Surface Mount SOIC8"
+			(at 171.45 92.964 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C61955"
+			(at 173.736 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AO4354"
+			(at 173.736 92.964 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "SOIC-8"
+			(at 172.466 93.218 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "3d2019fa-c58e-4ebe-84bf-0a5d0ec6c939")
+		)
+		(pin "5"
+			(uuid "63a9f3dd-5ba3-4be1-a38e-80b56b7520a2")
+		)
+		(pin "1"
+			(uuid "1492b71c-0981-43da-b4d4-d4e371120d9f")
+		)
+		(pin "4"
+			(uuid "7604634b-bb5a-4bff-92fc-e8507d1e9f02")
+		)
+		(pin "2"
+			(uuid "2c7dd68f-160b-44b2-9cc0-872311fc9da3")
+		)
+		(pin "3"
+			(uuid "08346005-069b-45fe-9ccf-dda86beefb7b")
+		)
+		(pin "7"
+			(uuid "b98ca1f6-64e4-48e3-b9f0-b69f1e78b82a")
+		)
+		(pin "8"
+			(uuid "248edd0e-d21b-4a26-a3dc-34a447c14201")
+		)
+		(instances
+			(project "dc-dc-6.8V"
+				(path "/ba698d19-bc6b-49b5-be54-63ab6405ed53"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bio-robot:MountingHoleM3")
 		(at 240.03 41.91 0)
 		(unit 1)
@@ -7278,126 +7687,6 @@
 			(project "dc-dc-6.8V"
 				(path "/ba698d19-bc6b-49b5-be54-63ab6405ed53"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bio-robot:Q_Nch60V46A")
-		(at 172.72 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bad8d39-2fe9-4832-aa06-f357a8ae5aef")
-		(property "Reference" "Q1"
-			(at 179.07 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SVD5865NLT4G"
-			(at 179.07 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bots:DPAK-3_ONS"
-			(at 177.673 67.945 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
-			(at 170.942 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-Channel 60 V 46A 71W Surface Mount D-Pak"
-			(at 171.45 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C889915"
-			(at 173.736 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" " SVD5865NLT4G"
-			(at 173.736 59.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "TO-252(DPAK)"
-			(at 172.466 60.198 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "749a11bd-d5dc-49cc-bed3-2a23092654e0")
-		)
-		(pin "2"
-			(uuid "004653b5-8084-4975-9388-92c3129693be")
-		)
-		(pin "1"
-			(uuid "0f965d05-eba3-4db3-ae9d-2d4631581919")
-		)
-		(instances
-			(project "dc-dc-6.8V"
-				(path "/ba698d19-bc6b-49b5-be54-63ab6405ed53"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7544,6 +7833,141 @@
 			(project "dc-dc-6.8V"
 				(path "/ba698d19-bc6b-49b5-be54-63ab6405ed53"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:Q_Nch60V46A_SOIC8")
+		(at 172.72 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dc151bc-7692-4d1f-8f31-81e8088a251b")
+		(property "Reference" "Q1"
+			(at 179.07 65.4049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SVD5865NLT4G"
+			(at 179.07 67.9449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bio-robot:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 177.673 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
+			(at 170.942 60.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-Channel 30 V 23A 3.1W Surface Mount SOIC8"
+			(at 171.45 59.944 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C61955"
+			(at 173.736 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AO4354"
+			(at 173.736 59.944 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "SOIC-8"
+			(at 172.466 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "88c90712-4198-4bda-9f7b-118d313b7e94")
+		)
+		(pin "5"
+			(uuid "c35c70c6-a078-4289-912b-af06582cd487")
+		)
+		(pin "1"
+			(uuid "f9895602-56d9-4a13-88e7-c17ada71532e")
+		)
+		(pin "4"
+			(uuid "bddea3ad-77eb-4985-beec-7475fffa270b")
+		)
+		(pin "2"
+			(uuid "5d94943a-a15b-4844-9991-acc54f667657")
+		)
+		(pin "3"
+			(uuid "02d7ee85-37d0-4ed9-bb1a-2ff7e7c9dd2a")
+		)
+		(pin "7"
+			(uuid "c2b18b1f-1c8d-4365-9b0b-193cb2b77110")
+		)
+		(pin "8"
+			(uuid "b221f191-b20e-4012-8fb2-0c713bf7afe2")
+		)
+		(instances
+			(project "dc-dc-6.8V"
+				(path "/ba698d19-bc6b-49b5-be54-63ab6405ed53"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7941,7 +8365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:C_22u_1206")
+		(lib_id "bio-robot:C_22u_1206")
 		(at 46.99 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -7973,7 +8397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bots:C_1206_3216Metric"
+		(property "Footprint" "bio-robot:C_1206_3216Metric"
 			(at 47.9552 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8392,127 +8816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bio-robot:Q_Nch60V46A")
-		(at 172.72 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb78567c-5774-45f8-82aa-1727805cab00")
-		(property "Reference" "Q2"
-			(at 179.07 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SVD5865NLT4G"
-			(at 179.07 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bots:DPAK-3_ONS"
-			(at 177.673 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
-			(at 170.942 92.456 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-Channel 60 V 46A 71W Surface Mount D-Pak"
-			(at 171.45 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C889915"
-			(at 173.736 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" " SVD5865NLT4G"
-			(at 173.736 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "TO-252(DPAK)"
-			(at 172.466 91.948 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "c89f1253-b496-4960-bdc4-92c50ef7540f")
-		)
-		(pin "2"
-			(uuid "bfc35944-529b-46f8-81d8-792f99813083")
-		)
-		(pin "1"
-			(uuid "1c8d09fc-c8c1-46ae-8954-04f5b106ab3f")
-		)
-		(instances
-			(project "dc-dc-6.8V"
-				(path "/ba698d19-bc6b-49b5-be54-63ab6405ed53"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bots:C_22u_1206")
+		(lib_id "bio-robot:C_22u_1206")
 		(at 35.56 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -8544,7 +8848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bots:C_1206_3216Metric"
+		(property "Footprint" "bio-robot:C_1206_3216Metric"
 			(at 36.5252 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8659,7 +8963,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bots:C_22u_1206")
+		(lib_id "bio-robot:C_22u_1206")
 		(at 59.69 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -8691,7 +8995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bots:C_1206_3216Metric"
+		(property "Footprint" "bio-robot:C_1206_3216Metric"
 			(at 60.6552 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8765,6 +9069,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
