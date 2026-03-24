@@ -7028,6 +7028,18 @@
 		(layer "Edge.Cuts")
 		(uuid "79c86f78-8336-47d1-85cb-cc273cf12d7e")
 	)
+	(gr_text "Designed for 16-14AWG \n10A Current"
+		(at 115.75 60.25 0)
+		(layer "F.SilkS")
+		(uuid "29d460bc-1f6d-41b4-b8fa-fe6c6ebda148")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "6.8V"
 		(at 139 70.5 0)
 		(layer "F.SilkS")
@@ -7074,6 +7086,18 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "6.8V Custom DC-DC\nMECH 540 / EECE 571M Marine Robotics\nGroup 3: Quiet Bio-inspired Propulsion System\nDesigned By: Henry Bryant\nPrinted on: March 24th, 2026"
+		(at 138 62.75 35)
+		(layer "B.SilkS")
+		(uuid "fe2f2a90-0701-40c6-bacf-11205347b888")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
