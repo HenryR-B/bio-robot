@@ -2482,7 +2482,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SVD5865NLT4G"
+			(property "Value" "AO4354"
 				(at 4.953 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7504,7 +7504,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SVD5865NLT4G"
+		(property "Value" "AO4354"
 			(at 179.07 100.9649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +7861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SVD5865NLT4G"
+		(property "Value" "AO4354"
 			(at 179.07 67.9449 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -368,7 +368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "25SVPF100M"
+		(property "Datasheet" ""
 			(at -4.445 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -403,6 +403,28 @@
 			)
 		)
 		(property "JLC Extended" "yes"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C136279"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "25SVPF100M"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

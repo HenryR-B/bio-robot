@@ -533,7 +533,7 @@
 		(descr "terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J6"
-			(at 2.25 -5.12 90)
+			(at 2.25 5.2825 90)
 			(layer "F.SilkS")
 			(uuid "08c32b5e-2f22-46c1-a3a9-7aedb6cd7e80")
 			(effects
@@ -1714,7 +1714,7 @@
 		(descr "terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J2"
-			(at 2.25 -5.12 270)
+			(at 2.25 5.25 270)
 			(layer "F.SilkS")
 			(uuid "ef377a1f-ce21-4f85-88b2-7c76f6ee6e74")
 			(effects
@@ -12091,7 +12091,7 @@
 		(descr "terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J5"
-			(at 2.25 -5.12 90)
+			(at 2.25 5.315 90)
 			(layer "F.SilkS")
 			(uuid "07084067-47ed-444d-a1fd-f556b6d97aa2")
 			(effects
@@ -12721,6 +12721,78 @@
 		(at 121 79.2 90)
 		(layer "F.SilkS")
 		(uuid "c3eb484c-13e5-4651-932f-83873a4b9a51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 173.489317 57.759759 90)
+		(layer "F.SilkS")
+		(uuid "7f52bc69-02f7-4880-9ac4-653efbbdbc33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 173.489317 62.088447 90)
+		(layer "F.SilkS")
+		(uuid "fa777160-7f9e-4482-9d42-0adcd8009dae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "6.8V"
+		(at 173.5 69 90)
+		(layer "F.SilkS")
+		(uuid "536ea3a6-e6b5-47d4-aedb-b5d93d916226")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 173.695445 79.678037 90)
+		(layer "F.SilkS")
+		(uuid "7c894f16-2f77-41b3-a7fd-9d3be92ec070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GNDPWR"
+		(at 173.75 75.75 90)
+		(layer "F.SilkS")
+		(uuid "e0b73bce-1745-47e3-b0be-550adb19ba99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GNDPWR"
+		(at 173.75 86.75 90)
+		(layer "F.SilkS")
+		(uuid "26da0470-6610-4d28-a9b5-2bba7ceae38e")
 		(effects
 			(font
 				(size 1 1)
