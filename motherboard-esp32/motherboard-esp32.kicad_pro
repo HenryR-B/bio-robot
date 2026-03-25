@@ -1284,7 +1284,7 @@
         "uuid": "d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
       }
     ],
-    "used_designators": "L2",
+    "used_designators": "#PWR13-16,#PWR49-50,D3-6,L2,Q3-4,R7-9",
     "variants": []
   },
   "sheets": [
