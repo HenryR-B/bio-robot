@@ -5,6 +5,211 @@
 	(uuid "f33c1807-dc39-4ef0-beae-cae7dbebb087")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Mechanical:MouseBite"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "B"
+				(at 0.635 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MouseBite"
+				(at 0.635 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mouse bites, break lines"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mouse break line"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MouseBite* BreakLine*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MouseBite_1_1"
+				(polyline
+					(pts
+						(xy 0 4.32) (xy 1.27 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.32) (xy 0 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.32) (xy 1.27 -4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.32) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.175) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 1.905)
+					(mid 1.0031 2.54)
+					(end 1.27 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -0.635)
+					(mid 1.0031 0)
+					(end 1.27 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -3.175)
+					(mid 1.007 -2.54)
+					(end 1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bio-robot:D_ZENER_SMAZ3V6"
 			(pin_numbers
 				(hide yes)
@@ -1552,8 +1757,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bio-robot:Q_Pch20V5.6A"
+		(symbol "bio-robot:LED_green"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1561,39 +1770,35 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 4.953 1.905 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "HL3415A"
-				(at 4.953 0 0)
+			(property "Value" "LED_green"
+				(at 3.81 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "bio-robot:SOT-23"
-				(at 4.953 -1.905 0)
+			(property "Footprint" "bio-robot:LED_0805_2012Metric"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 				)
 			)
 			(property "Datasheet" ""
@@ -1607,7 +1812,7 @@
 					)
 				)
 			)
-			(property "Description" "P-Channel 1.18nF 1.3W 11nC@4.5V 125pF 20V 31mΩ@4.5V、41mΩ@2.5V 5.6A 620mV 88pF P-Channel SOT-23 MOSFETs ROHS"
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1618,7 +1823,62 @@
 					)
 				)
 			)
-			(property "LCSC" "C28646270"
+			(property "MPN" "KT-0805G"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Hubei KENTO Elec"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0127"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0805"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2297"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1629,7 +1889,7 @@
 					)
 				)
 			)
-			(property "MPN" "HL3415A"
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1640,7 +1900,7 @@
 					)
 				)
 			)
-			(property "JLC" "SOT-23"
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1651,32 +1911,10 @@
 					)
 				)
 			)
-			(property "ki_keywords" "P-Channel Power MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?252*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_Pch20V5.6A_0_1"
+			(symbol "LED_green_0_1"
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1686,165 +1924,51 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "Q_Pch20V5.6A_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "LED_green_1_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 8 255 17 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 255 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 255 11 1)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "G"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1860,9 +1984,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "S"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1877,17 +2001,513 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:LED_red"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_red"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bio-robot:LED_0805_2012Metric"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "NCD0805R1"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Foshan NationStar Optoelectronics"
+				(at 1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0122"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0805"
+				(at -1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C84256"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_red_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_red_1_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 2 11 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 6 13 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 14 14 1)
+					)
+				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "D"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:LED_white"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_blue"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bio-robot:LED_0603_1608Metric"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "KT-0603W"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Everlight Elec"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0096"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0603"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2290"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_white_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_white_1_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 252 254 1)
+					)
+				)
+				(text "WHITE"
+					(at -3.81 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 0 0 1)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2233,6 +2853,484 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bio-robot:Q_TN2130K1-G"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TN2130K1-G"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "bio-robot:SOT95P240X111-3N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300V 85mA 25Ω@120mA,4.5V 360mW 2.4V@1mA 1PCSNChannel SOT-23-3 MOSFETs ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Diodes Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SOT-23-3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "0.67"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "TN2130K1-G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "JLC" "SOT-23-3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C626652"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Microchip"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_TN2130K1-G_0_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 3.048 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.762) (xy 4.318 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bio-robot:R_100k"
 			(pin_numbers
 				(hide yes)
@@ -2400,6 +3498,1029 @@
 				)
 			)
 			(symbol "R_100k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:R_11k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R8"
+				(at 2.54 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "11k"
+				(at 2.54 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "bio-robot:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF1102T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0016"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25950"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_11k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_11k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:R_2k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bio-robot:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF2001T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0009"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22975"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_2k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_2k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:R_3.3k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.3k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bio-robot:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF3301T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0009"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22978"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_3.3k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_3.3k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:R_3.6k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R8"
+				(at 2.54 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "3.6k"
+				(at 2.54 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "bio-robot:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF3601T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0016"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22980"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC Extended" "no"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_3.6k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_3.6k_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bio-robot:R_34k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_34k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "bio-robot:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF3402T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.001"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLC" "0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C23008"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_34k_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_34k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2612,6 +4733,284 @@
 						)
 					)
 					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+6V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+6V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+6V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+6V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+6V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3223,9 +5622,19 @@
 		)
 		(uuid "0d8d6a9a-e99c-4d23-8ad2-109571cedb10")
 	)
+	(text " 2.4Vth / (3.6 / (3.6+11)) = 9.73V cut off"
+		(exclude_from_sim no)
+		(at 148.082 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18919b3f-570e-4fd0-8d27-ffaaa8ae5800")
+	)
 	(text "Reverse Polarity Protection (Zener Clamped Mosfet)"
 		(exclude_from_sim no)
-		(at 104.648 83.058 0)
+		(at 104.648 99.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3235,7 +5644,7 @@
 	)
 	(text "board contact 18650 holders (like Keystone 1043 / 1048) can generally only go up to 3-5A max"
 		(exclude_from_sim no)
-		(at 21.844 79.248 0)
+		(at 21.844 95.758 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3243,6 +5652,12 @@
 			(justify left)
 		)
 		(uuid "34ab64a8-d2de-40bb-8188-4657436e6ed5")
+	)
+	(junction
+		(at 110.49 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34d5e86a-3356-4cc7-b6db-f5b3d6ab51b9")
 	)
 	(junction
 		(at 132.08 29.21)
@@ -3257,13 +5672,19 @@
 		(uuid "94a6815d-2476-4715-ad70-c0d46e3757a2")
 	)
 	(junction
-		(at 97.79 91.44)
+		(at 125.73 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4b9611e-e945-4bbb-8137-e01beab0282d")
+	)
+	(junction
+		(at 97.79 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5191c46-98c7-4d11-8dab-139f2c976798")
 	)
 	(junction
-		(at 106.68 118.11)
+		(at 106.68 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd75d9cd-c346-45b0-a2ca-70eb8976037c")
@@ -3281,13 +5702,13 @@
 		(uuid "e97fa386-6b4a-4a27-933c-fa1c6b51548a")
 	)
 	(junction
-		(at 97.79 106.68)
+		(at 97.79 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f20983de-3295-4176-a802-5fbd7ddb641b")
 	)
 	(junction
-		(at 106.68 91.44)
+		(at 106.68 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f72b039b-2cf6-4667-90eb-d346f75f1f0f")
@@ -3308,6 +5729,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 142.24) (xy 204.47 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042fabde-eb34-47ca-ab69-52feea079392")
+	)
+	(wire
+		(pts
 			(xy 123.19 44.45) (xy 123.19 45.72)
 		)
 		(stroke
@@ -3318,7 +5749,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 91.44) (xy 97.79 95.25)
+			(xy 97.79 107.95) (xy 97.79 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3328,7 +5759,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 91.44) (xy 82.55 91.44)
+			(xy 68.58 107.95) (xy 82.55 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3348,7 +5779,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 106.68) (xy 97.79 106.68)
+			(xy 87.63 123.19) (xy 97.79 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3358,13 +5789,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 127 66.04)
+			(xy 222.25 36.83) (xy 222.25 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1acfa411-9c43-4687-bb86-b0600087e70c")
+		(uuid "1bf498e9-b4e3-44bb-b360-dcb523350389")
 	)
 	(wire
 		(pts
@@ -3388,7 +5819,37 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 106.68 107.95)
+			(xy 110.49 82.55) (xy 110.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253c7b5f-ee9f-4e53-b352-e2b70b2e5619")
+	)
+	(wire
+		(pts
+			(xy 222.25 58.42) (xy 222.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7b711b-86c1-4f98-b896-cec59d7b2042")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0c89cd-45b2-4247-8992-5012072faf48")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 106.68 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3398,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 127) (xy 34.29 93.98)
+			(xy 34.29 143.51) (xy 34.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3428,13 +5889,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 134.62 91.44)
+			(xy 118.11 107.95) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4568ec7c-9708-4a45-95a3-3ec3cebf7470")
+	)
+	(wire
+		(pts
+			(xy 228.6 130.81) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4754773c-075f-4c0e-8fb7-e3a20488c5a4")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b206d78-989c-43e3-a1cf-3e1b43968e8f")
 	)
 	(wire
 		(pts
@@ -3458,7 +5939,17 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 115.57) (xy 49.53 115.57)
+			(xy 204.47 120.65) (xy 204.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6e6789-dacb-4879-8efe-3f3ec259f41d")
+	)
+	(wire
+		(pts
+			(xy 41.91 132.08) (xy 49.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3468,7 +5959,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 106.68) (xy 113.03 106.68)
+			(xy 97.79 123.19) (xy 113.03 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3488,7 +5979,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 93.98) (xy 41.91 96.52)
+			(xy 41.91 110.49) (xy 41.91 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3498,7 +5989,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 115.57) (xy 49.53 111.76)
+			(xy 49.53 132.08) (xy 49.53 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3508,7 +5999,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 111.76) (xy 41.91 115.57)
+			(xy 41.91 128.27) (xy 41.91 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3518,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 134.62 91.44)
+			(xy 134.62 105.41) (xy 134.62 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 137.16 63.5)
+			(xy 125.73 63.5) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3558,7 +6049,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 91.44) (xy 60.96 91.44)
+			(xy 49.53 107.95) (xy 60.96 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 93.98) (xy 41.91 93.98)
+			(xy 34.29 110.49) (xy 41.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3588,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 113.03 106.68)
+			(xy 113.03 115.57) (xy 113.03 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3598,7 +6089,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 99.06) (xy 87.63 106.68)
+			(xy 87.63 115.57) (xy 87.63 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3608,7 +6099,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 125.73) (xy 111.76 125.73)
+			(xy 125.73 76.2) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6ddbd4-4536-43a9-a118-072c30b304c1")
+	)
+	(wire
+		(pts
+			(xy 101.6 142.24) (xy 111.76 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3628,6 +6129,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 63.5) (xy 125.73 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b517658a-3498-4fb5-be2e-6d9049b38ede")
+	)
+	(wire
+		(pts
 			(xy 41.91 39.37) (xy 43.18 39.37)
 		)
 		(stroke
@@ -3638,7 +6149,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 111.76 118.11)
+			(xy 228.6 142.24) (xy 228.6 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa49e4f-2079-451d-9c40-07a29442cf3a")
+	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 111.76 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3658,7 +6179,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 107.95 91.44)
+			(xy 101.6 142.24) (xy 101.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beedd10d-608c-43a3-ad5b-fd167a1cb71e")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3668,7 +6199,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 91.44) (xy 106.68 91.44)
+			(xy 110.49 73.66) (xy 120.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06af86f-84ca-4a83-b459-ae6cf049d465")
+	)
+	(wire
+		(pts
+			(xy 92.71 107.95) (xy 106.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3698,13 +6239,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 125.73) (xy 101.6 128.27)
+			(xy 110.49 63.5) (xy 110.49 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8cd38d0-f253-4199-a7ef-dc6031652f6d")
+		(uuid "d513390a-336d-43fe-a8b7-9e8647d65c14")
+	)
+	(wire
+		(pts
+			(xy 204.47 132.08) (xy 204.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70968f6-9b40-4fd5-b83f-7a0ac069c849")
 	)
 	(wire
 		(pts
@@ -3718,7 +6269,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 96.52) (xy 49.53 91.44)
+			(xy 49.53 113.03) (xy 49.53 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3728,13 +6279,33 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 106.68) (xy 97.79 107.95)
+			(xy 97.79 123.19) (xy 97.79 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e5ceac8a-8bf0-422c-9ed8-4cae270c941b")
+	)
+	(wire
+		(pts
+			(xy 110.49 73.66) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e757cd73-b918-4f51-b1b2-8633df5467eb")
+	)
+	(wire
+		(pts
+			(xy 222.25 46.99) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b16bd6-da35-4ea5-b473-987150b4466d")
 	)
 	(wire
 		(pts
@@ -3748,7 +6319,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 115.57) (xy 97.79 118.11)
+			(xy 110.49 72.39) (xy 110.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2a81c4-370e-4bbb-bc42-5b650f8080e7")
+	)
+	(wire
+		(pts
+			(xy 97.79 132.08) (xy 97.79 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3758,13 +6339,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 118.11) (xy 106.68 118.11)
+			(xy 97.79 134.62) (xy 106.68 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f6a40989-96bd-4792-847c-25952d855986")
+	)
+	(wire
+		(pts
+			(xy 228.6 119.38) (xy 228.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f773d2da-1809-4292-8536-5b4eb04192fe")
 	)
 	(wire
 		(pts
@@ -3788,7 +6379,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 102.87) (xy 97.79 106.68)
+			(xy 97.79 119.38) (xy 97.79 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3808,7 +6399,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 106.68 115.57)
+			(xy 106.68 134.62) (xy 106.68 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3817,7 +6408,7 @@
 		(uuid "fe28fd7e-bf90-4441-993e-8dea8a6a423e")
 	)
 	(label "VBAT5V"
-		(at 52.07 91.44 0)
+		(at 52.07 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3836,8 +6427,18 @@
 		)
 		(uuid "02f15b55-c3b8-4b42-b726-3211d34f8b21")
 	)
+	(label "LED6V8"
+		(at 228.6 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03e211e2-da18-4c43-be57-2b2c9c10bb0b")
+	)
 	(label "BAT5V_MID"
-		(at 96.52 91.44 0)
+		(at 96.52 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3846,8 +6447,18 @@
 		)
 		(uuid "1128683d-6c01-4e10-83da-a867c8b7d828")
 	)
+	(label "LV_D_5V"
+		(at 104.14 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25a1b77f-86f9-4353-a9a5-6eb22c589aa3")
+	)
 	(label "VBAT5V_P2"
-		(at 44.45 115.57 0)
+		(at 44.45 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3865,6 +6476,36 @@
 			(justify left bottom)
 		)
 		(uuid "47a62ff5-6eb4-48ac-876d-05faa81099bf")
+	)
+	(label "LV_D_VCC"
+		(at 127 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "614c6f53-4c91-48ff-9613-c6b6cc936e3e")
+	)
+	(label "LED_VCC"
+		(at 204.47 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8530f53e-a7b1-45af-b239-1a37899bdf5b")
+	)
+	(label "LV_G_VCC"
+		(at 114.3 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f210c54-f139-4371-9d23-9893d5484287")
 	)
 	(label "SW"
 		(at 137.16 55.88 0)
@@ -3897,7 +6538,7 @@
 		(uuid "9def8c4b-f587-439f-9cfc-6d396ebcdb81")
 	)
 	(label "VGATE_2"
-		(at 102.87 106.68 0)
+		(at 102.87 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3906,8 +6547,18 @@
 		)
 		(uuid "ba9326e8-5a1c-4092-b24f-99dd8daa5877")
 	)
+	(label "LED_5V"
+		(at 222.25 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce6e3b93-29fa-4487-807e-9cde126bc4a5")
+	)
 	(label "FUSE_BAT5V"
-		(at 71.12 91.44 0)
+		(at 71.12 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3917,7 +6568,7 @@
 		(uuid "cfe3d5cc-e359-47da-8f32-9fddee0d2ab2")
 	)
 	(label "SW2"
-		(at 109.22 118.11 0)
+		(at 109.22 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,7 +6579,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 134.62 88.9 0)
+		(at 134.62 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3939,7 +6590,7 @@
 		(fields_autoplaced yes)
 		(uuid "07ef5a6b-f705-40c7-aa70-7e9479f346a1")
 		(property "Reference" "#PWR07"
-			(at 134.62 92.71 0)
+			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +6601,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 134.62 83.82 0)
+			(at 134.62 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3960,7 +6611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 88.9 0)
+			(at 134.62 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,7 +6622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 88.9 0)
+			(at 134.62 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3982,7 +6633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 134.62 88.9 0)
+			(at 134.62 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4091,6 +6742,154 @@
 		)
 	)
 	(symbol
+		(lib_id "bio-robot:R_2k")
+		(at 228.6 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ba6956e-8c76-4cc7-9288-585ff4024635")
+		(property "Reference" "R8"
+			(at 231.14 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 231.14 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bio-robot:R_0603_1608Metric"
+			(at 226.822 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF2001T5E"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0009"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22975"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a10c561-b78a-471d-b83c-a5ea6fac8f04")
+		)
+		(pin "2"
+			(uuid "50f17c25-298c-4ef0-a279-36cc9e47dc51")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 160.02 26.67 0)
 		(unit 1)
@@ -4170,7 +6969,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 127 66.04 0)
+		(at 125.73 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4181,7 +6980,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f88e2d2-03a2-4505-a99c-1b8dff761c6a")
 		(property "Reference" "#PWR06"
-			(at 127 71.12 0)
+			(at 125.73 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4192,7 +6991,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 126.873 69.85 0)
+			(at 125.603 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4202,7 +7001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 67.31 0)
+			(at 125.73 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4213,7 +7012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 67.31 0)
+			(at 125.73 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4224,7 +7023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 127 66.04 0)
+			(at 125.73 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4247,126 +7046,8 @@
 		)
 	)
 	(symbol
-		(lib_id "bio-robot:Q_Pch20V5.6A")
-		(at 113.03 93.98 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "267da145-2d94-4948-b69f-66444d83f521")
-		(property "Reference" "Q4"
-			(at 113.03 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HL3415A"
-			(at 113.03 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bio-robot:SOT-23"
-			(at 111.125 89.027 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-Channel 1.18nF 1.3W 11nC@4.5V 125pF 20V 31mΩ@4.5V、41mΩ@2.5V 5.6A 620mV 88pF P-Channel SOT-23 MOSFETs ROHS"
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C28646270"
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HL3415A"
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "SOT-23"
-			(at 113.03 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77f32c05-317e-4dcb-a0b3-4ae0c742a81f")
-		)
-		(pin "2"
-			(uuid "0a0d91d4-b347-4aaf-8c84-2c48e5c6af72")
-		)
-		(pin "3"
-			(uuid "32d0be79-8e6e-41ff-81b9-0840161766f8")
-		)
-		(instances
-			(project "motherboard-esp32"
-				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bio-robot:Q_Pch20V5.6A")
-		(at 87.63 93.98 90)
+		(lib_id "bio-robot:R_34k")
+		(at 204.47 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4375,9 +7056,224 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "295f1028-baea-43da-8ffb-46ef5e29bf3d")
+		(uuid "11173674-a39d-4339-a98a-813e99c981a6")
+		(property "Reference" "R9"
+			(at 207.01 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_34k"
+			(at 207.01 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bio-robot:R_0603_1608Metric"
+			(at 202.692 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF3402T5E"
+			(at 204.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 204.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.001"
+			(at 204.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 204.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23008"
+			(at 204.47 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cebe81ed-4c08-4278-b705-651a36a17fa4")
+		)
+		(pin "2"
+			(uuid "3fa2cfcb-ffaa-4d70-9fc8-c2520448091a")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 204.47 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb96af6-a607-4d0a-abca-94add6da25ac")
+		(property "Reference" "#PWR016"
+			(at 204.47 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 204.343 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 204.47 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a623e2d-f672-4054-a921-a78d93342ebf")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:Q_Pch40V45A")
+		(at 87.63 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22481565-0378-4ac2-8c3f-336f4afb501a")
 		(property "Reference" "Q3"
-			(at 87.63 85.09 90)
+			(at 87.63 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4386,8 +7282,8 @@
 				)
 			)
 		)
-		(property "Value" "HL3415A"
-			(at 87.63 87.63 90)
+		(property "Value" "DOD4185"
+			(at 87.63 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4396,8 +7292,8 @@
 				)
 			)
 		)
-		(property "Footprint" "bio-robot:SOT-23"
-			(at 89.535 89.027 0)
+		(property "Footprint" "bots:DPAK-3_ONS"
+			(at 89.535 105.537 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,8 +7305,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 87.63 93.98 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,8 +7316,8 @@
 				)
 			)
 		)
-		(property "Description" "P-Channel 1.18nF 1.3W 11nC@4.5V 125pF 20V 31mΩ@4.5V、41mΩ@2.5V 5.6A 620mV 88pF P-Channel SOT-23 MOSFETs ROHS"
-			(at 87.63 93.98 0)
+		(property "Description" "P-Channel 40 V 45A 73.5W Surface Mount D-Pak"
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,8 +7327,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C28646270"
-			(at 87.63 93.98 0)
+		(property "LCSC" "C41430591"
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4442,19 +7338,8 @@
 				)
 			)
 		)
-		(property "MPN" "HL3415A"
-			(at 87.63 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLC" "SOT-23"
-			(at 87.63 93.98 0)
+		(property "MPN" "DOD4185"
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,13 +7350,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "aaf225dc-265b-4596-9bfe-3949016e196b")
+			(uuid "5dbc61a0-54f2-4b85-8b06-86abd597d46e")
 		)
 		(pin "2"
-			(uuid "89cd3e58-5212-4442-a1ac-e6a7196de0f9")
+			(uuid "85ba8e67-5d53-4b6d-a1ce-e317dc53f978")
 		)
 		(pin "3"
-			(uuid "2cfb40c5-321e-4a0d-9f4d-52aca7caa486")
+			(uuid "0dcaee8b-ba3c-42c9-993d-90d6dea049d2")
 		)
 		(instances
 			(project "motherboard-esp32"
@@ -4561,8 +7446,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 110.49 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cd46b60-856c-47d0-922a-5b05a5d6d902")
+		(property "Reference" "#PWR020"
+			(at 110.49 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 110.49 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 110.49 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73848ce4-41e5-4590-942f-144023f85a3f")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bio-robot:JST_XH-2")
-		(at 116.84 121.92 0)
+		(at 116.84 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4573,7 +7536,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cf7ec2d-a5e3-4ffa-9a97-1b5c90e0423d")
 		(property "Reference" "J4"
-			(at 121.92 120.6499 0)
+			(at 121.92 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4584,7 +7547,7 @@
 			)
 		)
 		(property "Value" "JST_2P_XH"
-			(at 121.92 123.1899 0)
+			(at 121.92 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4595,7 +7558,7 @@
 			)
 		)
 		(property "Footprint" "bots:JST_B2B-XH-A_LF__SN_"
-			(at 116.84 107.95 0)
+			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +7570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 110.49 0)
+			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4619,7 +7582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 121.92 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,8 +7608,116 @@
 		)
 	)
 	(symbol
+		(lib_id "bio-robot:Q_Pch40V45A")
+		(at 113.03 110.49 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34abe534-83db-46ed-a0f2-3233b23d1113")
+		(property "Reference" "Q4"
+			(at 113.284 103.632 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DOD4185"
+			(at 115.316 104.902 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bots:DPAK-3_ONS"
+			(at 111.125 105.537 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-Channel 40 V 45A 73.5W Surface Mount D-Pak"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41430591"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DOD4185"
+			(at 113.03 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "709e9984-8137-4457-b207-8404953eecdd")
+		)
+		(pin "2"
+			(uuid "228e7a84-6430-4a41-be76-e20ec74975eb")
+		)
+		(pin "3"
+			(uuid "d85242a5-f71a-441d-88fb-f43aac5087f6")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bio-robot:D_ZENER_SMAZ3V6")
-		(at 97.79 99.06 270)
+		(at 97.79 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4657,7 +7728,7 @@
 		(fields_autoplaced yes)
 		(uuid "384bd505-c069-43d3-84af-9bbaba5a6d1b")
 		(property "Reference" "D2"
-			(at 100.33 97.7899 90)
+			(at 100.33 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4668,7 +7739,7 @@
 			)
 		)
 		(property "Value" "SMAZ3V6"
-			(at 100.33 100.3299 90)
+			(at 100.33 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4679,7 +7750,7 @@
 			)
 		)
 		(property "Footprint" "bots:D_SMA"
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +7761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4701,7 +7772,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4712,7 +7783,7 @@
 			)
 		)
 		(property "MPN" "1SMA4729A "
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +7794,7 @@
 			)
 		)
 		(property "Manufacturer" "EIC Semicon C"
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4734,7 +7805,7 @@
 			)
 		)
 		(property "Price" "0.0633"
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4745,7 +7816,7 @@
 			)
 		)
 		(property "LCSC" "C19077475"
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4756,7 +7827,7 @@
 			)
 		)
 		(property "JLC" "DO-214AC(SMA) "
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4767,7 +7838,7 @@
 			)
 		)
 		(property "Extended" "no"
-			(at 97.79 99.06 0)
+			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4794,7 +7865,7 @@
 	)
 	(symbol
 		(lib_id "bio-robot:R_100k")
-		(at 106.68 111.76 0)
+		(at 106.68 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4805,7 +7876,7 @@
 		(fields_autoplaced yes)
 		(uuid "458447d3-5e91-453f-a160-940cfb32fe51")
 		(property "Reference" "R4"
-			(at 109.22 110.4899 0)
+			(at 109.22 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4816,7 +7887,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 109.22 113.0299 0)
+			(at 109.22 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4827,7 +7898,7 @@
 			)
 		)
 		(property "Footprint" "bots:R_0603_1608Metric"
-			(at 104.902 111.76 90)
+			(at 104.902 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4838,7 +7909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,7 +7920,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +7931,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1003T5E"
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +7942,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +7953,7 @@
 			)
 		)
 		(property "Price" "0.0009"
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,7 +7964,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +7975,7 @@
 			)
 		)
 		(property "LCSC" "C25803"
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +7986,7 @@
 			)
 		)
 		(property "JLC Extended" "no"
-			(at 106.68 111.76 0)
+			(at 106.68 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4941,8 +8012,156 @@
 		)
 	)
 	(symbol
+		(lib_id "bio-robot:LED_white")
+		(at 228.6 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fde7374-0c9c-4bcf-b015-b669d8b9d194")
+		(property "Reference" "D6"
+			(at 234.95 139.7978 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_blue"
+			(at 234.95 142.3378 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bio-robot:LED_0603_1608Metric"
+			(at 236.22 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 228.6 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0603W"
+			(at 236.22 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Everlight Elec"
+			(at 234.95 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0096"
+			(at 236.22 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 234.95 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 234.95 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 228.6 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37fa0149-309d-46ed-994c-8eeee85a7b2d")
+		)
+		(pin "2"
+			(uuid "ff01f01a-d1e2-49ac-a1a3-16b028bec974")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bio-robot:Keystone_1048P_DualBatteryHolder")
-		(at 41.91 104.14 90)
+		(at 41.91 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4953,7 +8172,7 @@
 		(fields_autoplaced yes)
 		(uuid "657d2f69-4c7f-4823-8cc5-e0cd8027b81b")
 		(property "Reference" "BT8"
-			(at 53.34 102.8699 90)
+			(at 53.34 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4964,7 +8183,7 @@
 			)
 		)
 		(property "Value" "Keystone_1048P_DualBatteryHolder"
-			(at 53.34 105.4099 90)
+			(at 53.34 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4975,7 +8194,7 @@
 			)
 		)
 		(property "Footprint" "bio-robot:BAT_1048P"
-			(at 33.274 117.348 0)
+			(at 33.274 133.858 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,7 +8206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 104.14 0)
+			(at 41.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4998,7 +8217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 104.14 0)
+			(at 41.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5009,7 +8228,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "36-1042-ND"
-			(at 33.782 116.84 0)
+			(at 33.782 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5021,7 +8240,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1042/Keystone/view-part/?ref=snap"
-			(at 34.036 107.442 0)
+			(at 34.036 123.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5033,7 +8252,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "15.11mm"
-			(at 33.782 107.696 0)
+			(at 33.782 124.206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5045,7 +8264,7 @@
 			)
 		)
 		(property "Package" "NON STANDARD-5 Keystone"
-			(at 32.766 120.142 0)
+			(at 32.766 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5057,7 +8276,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/1042/Keystone/view-part/?ref=eda"
-			(at 34.036 113.03 0)
+			(at 34.036 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,7 +8288,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 35.052 110.49 0)
+			(at 35.052 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5081,7 +8300,7 @@
 			)
 		)
 		(property "PARTREV" "E"
-			(at 34.798 103.124 0)
+			(at 34.798 119.634 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +8312,7 @@
 			)
 		)
 		(property "MF" "Keystone Electronics Corp."
-			(at 33.528 118.618 0)
+			(at 33.528 135.128 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5105,7 +8324,7 @@
 			)
 		)
 		(property "MP" "1042"
-			(at 35.814 102.616 0)
+			(at 35.814 119.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5117,7 +8336,7 @@
 			)
 		)
 		(property "Description_1" "SMT Holder for 18650 Battery"
-			(at 30.734 116.078 0)
+			(at 30.734 132.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5129,7 +8348,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 34.798 103.124 0)
+			(at 34.798 119.634 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5141,7 +8360,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "1042"
-			(at 35.052 102.616 0)
+			(at 35.052 119.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5168,6 +8387,154 @@
 			(project "motherboard-esp32"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "BT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:R_11k")
+		(at 110.49 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f746db9-13b4-45f3-9a09-4b9b1d9947d0")
+		(property "Reference" "R10"
+			(at 113.03 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "11k"
+			(at 113.03 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bio-robot:R_0603_1608Metric"
+			(at 108.712 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1102T5E"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0016"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25950"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "423b781d-c561-453f-88fb-582c25570255")
+		)
+		(pin "2"
+			(uuid "2cc37ce6-aea1-49c7-992c-00c34248388e")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5322,6 +8689,232 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 228.6 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712d8db4-c9a6-41b7-af62-cf24b101a0ad")
+		(property "Reference" "#PWR013"
+			(at 228.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 228.473 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 228.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b16b6362-ce8d-441f-a181-1f4b3b04c714")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:LED_green")
+		(at 222.25 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "753d8161-2949-4075-aa03-98749fae0532")
+		(property "Reference" "D3"
+			(at 226.06 54.9274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_green"
+			(at 226.06 57.4674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bio-robot:LED_0805_2012Metric"
+			(at 229.87 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 222.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KT-0805G"
+			(at 229.87 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hubei KENTO Elec"
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0127"
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0805"
+			(at 228.6 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 229.87 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 222.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69fb5d2b-500a-48a7-a7c0-4be9b6de9f3b")
+		)
+		(pin "2"
+			(uuid "d296a5e8-f616-4d10-86de-38636e242962")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bio-robot:D_ZENER_SMAZ6V8")
 		(at 123.19 36.83 270)
 		(unit 1)
@@ -5460,7 +9053,7 @@
 	)
 	(symbol
 		(lib_id "bio-robot:R_100k")
-		(at 97.79 111.76 0)
+		(at 97.79 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5471,7 +9064,7 @@
 		(fields_autoplaced yes)
 		(uuid "81f74011-7691-4275-b1b2-806da05cdaaf")
 		(property "Reference" "R3"
-			(at 100.33 110.4899 0)
+			(at 100.33 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5482,7 +9075,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 100.33 113.0299 0)
+			(at 100.33 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5493,7 +9086,7 @@
 			)
 		)
 		(property "Footprint" "bots:R_0603_1608Metric"
-			(at 96.012 111.76 90)
+			(at 96.012 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,7 +9097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5515,7 +9108,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5526,7 +9119,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1003T5E"
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5537,7 +9130,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5548,7 +9141,7 @@
 			)
 		)
 		(property "Price" "0.0009"
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5559,7 +9152,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5570,7 +9163,7 @@
 			)
 		)
 		(property "LCSC" "C25803"
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5581,7 +9174,7 @@
 			)
 		)
 		(property "JLC Extended" "no"
-			(at 97.79 111.76 0)
+			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,7 +9416,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 127 0)
+		(at 34.29 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5833,7 +9426,7 @@
 		(dnp no)
 		(uuid "96afdf54-7baa-46a1-82d7-a8f6c0b264ca")
 		(property "Reference" "#PWR017"
-			(at 34.29 133.35 0)
+			(at 34.29 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,7 +9437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 130.81 0)
+			(at 34.29 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5854,7 +9447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 127 0)
+			(at 34.29 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5865,7 +9458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 127 0)
+			(at 34.29 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +9469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 127 0)
+			(at 34.29 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5893,6 +9486,566 @@
 			(project "motherboard-esp32"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bb0ec9e-4e36-4ba3-8ff0-49eb945e4544")
+		(property "Reference" "#PWR018"
+			(at 101.6 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1323f168-1eab-491a-a367-28a0803f4f73")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 228.6 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ea31c10-fc0e-4bb1-98f7-c6f2fab9e2f1")
+		(property "Reference" "#PWR014"
+			(at 228.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6.8V"
+			(at 226.06 118.1101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 228.6 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15c1fc69-35b2-403c-a953-39fba97f6fc2")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:LED_red")
+		(at 204.47 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eecafec-5028-4f0a-b5e5-aaf117c8185a")
+		(property "Reference" "D5"
+			(at 208.28 138.7474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_red"
+			(at 208.28 141.2874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bio-robot:LED_0805_2012Metric"
+			(at 214.63 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 204.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NCD0805R1"
+			(at 213.36 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 213.36 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0122"
+			(at 212.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0805"
+			(at 213.36 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
+			(at 213.36 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 204.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ccbec97-c5f5-4494-b616-ccd6d4e87e0f")
+		)
+		(pin "1"
+			(uuid "ad92eea6-9b82-4f3f-8d03-46a01cfd2877")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b20afa10-804d-418b-b99a-c5a0bcf23f2e")
+		(property "Reference" "#PWR050"
+			(at 222.25 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73378d74-f865-4b44-9f3f-512d16fa7e37")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:Q_TN2130K1-G")
+		(at 123.19 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5f08e5d-2e74-452f-87a2-6fc81fe6e302")
+		(property "Reference" "Q6"
+			(at 129.54 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TN2130K1-G"
+			(at 129.54 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bio-robot:SOT95P240X111-3N"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300V 85mA 25Ω@120mA,4.5V 360mW 2.4V@1mA 1PCSNChannel SOT-23-3 MOSFETs ROHS"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOT-23-3"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "0.67"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "TN2130K1-G"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "JLC" "SOT-23-3"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C626652"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "yes"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17cc23bc-7516-4413-bae8-f1211df44846")
+		)
+		(pin "2"
+			(uuid "76b93991-1c24-411f-bf15-8bb1cc0b2cce")
+		)
+		(pin "3"
+			(uuid "39c7e5ba-16a4-4e9c-a1c4-6a6e3c2d71cd")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6045,8 +10198,8 @@
 		)
 	)
 	(symbol
-		(lib_id "bio-robot:Fuse_0437005.WR")
-		(at 64.77 91.44 0)
+		(lib_id "bio-robot:R_3.3k")
+		(at 222.25 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6055,29 +10208,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4aed6d2-a716-4981-85ae-a7c9e23e516a")
-		(property "Reference" "F1"
-			(at 64.77 85.09 0)
+		(uuid "c20d2d9b-9709-4783-94dc-d7738f10d86d")
+		(property "Reference" "R7"
+			(at 224.79 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0437005.WR"
-			(at 64.77 87.63 0)
+		(property "Value" "3.3k"
+			(at 224.79 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "bio-robot:Fuse_1206_3216Metric"
-			(at 64.77 93.218 0)
+		(property "Footprint" "bio-robot:R_0603_1608Metric"
+			(at 220.472 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +10243,153 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 91.44 90)
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF3301T5E"
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0009"
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22978"
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 222.25 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d06087a-acf1-44b3-b117-0f7ec2d9c0af")
+		)
+		(pin "1"
+			(uuid "e113c494-7d2d-47c9-bf96-1453ad03a6dd")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bio-robot:Fuse_0437005.WR")
+		(at 64.77 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4aed6d2-a716-4981-85ae-a7c9e23e516a")
+		(property "Reference" "F1"
+			(at 64.77 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0437005.WR"
+			(at 64.77 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bio-robot:Fuse_1206_3216Metric"
+			(at 64.77 109.728 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6099,7 +10400,7 @@
 			)
 		)
 		(property "Description" "5A Fuse"
-			(at 64.77 91.44 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6110,7 +10411,7 @@
 			)
 		)
 		(property "MPN" "0501010.WR1"
-			(at 64.77 91.44 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,7 +10422,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 64.77 91.44 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6132,7 +10433,7 @@
 			)
 		)
 		(property "Price" "0.1512"
-			(at 64.77 91.44 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6143,7 +10444,7 @@
 			)
 		)
 		(property "JLC" "1206"
-			(at 64.77 91.44 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6154,7 +10455,7 @@
 			)
 		)
 		(property "LCSC" "C99541"
-			(at 64.77 91.44 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,7 +10466,7 @@
 			)
 		)
 		(property "JLC Extended" "yes"
-			(at 64.77 91.44 0)
+			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6185,6 +10486,161 @@
 			(project "motherboard-esp32"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 204.47 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65ae331-25f3-4ff3-9c93-609fea4a3f89")
+		(property "Reference" "#PWR015"
+			(at 204.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 204.47 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 204.47 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d9c9cdc-67e5-4e91-a0e6-8dd8b8e7c3c4")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 222.25 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db9392de-8dbb-4526-9799-c643b15a2ac0")
+		(property "Reference" "#PWR049"
+			(at 222.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 222.25 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 222.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71db0f77-b4ce-42f8-bc93-bbf4a942619e")
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6339,8 +10795,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 128.27 0)
+		(lib_id "bio-robot:R_3.6k")
+		(at 110.49 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6348,30 +10804,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f622b360-4408-47f9-8828-e2a50107a990")
-		(property "Reference" "#PWR018"
-			(at 101.6 134.62 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "e3a34b5a-1043-40e5-b41d-cbe944ca9a2d")
+		(property "Reference" "R11"
+			(at 113.03 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 101.6 132.08 0)
+		(property "Value" "3.6k"
+			(at 113.03 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 128.27 0)
+		(property "Footprint" "bio-robot:R_0603_1608Metric"
+			(at 108.712 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,7 +10840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 128.27 0)
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,8 +10850,74 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 128.27 0)
+		(property "Description" "Resistor"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF3601T5E"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.0016"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22980"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,12 +10928,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "541b6333-23f3-49bc-a5b2-b32568598b32")
+			(uuid "96a4683b-19ef-43a2-904a-6146348b50f9")
+		)
+		(pin "2"
+			(uuid "f6774a29-cf93-42ea-81bd-057081c44b84")
 		)
 		(instances
 			(project "motherboard-esp32"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
-					(reference "#PWR018")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MouseBite")
+		(at 210.82 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e960aaac-5547-4319-a571-b38acf00acf3")
+		(property "Reference" "B1"
+			(at 213.36 83.8824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MouseBite"
+			(at 213.36 86.4224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bio-robot:MouseBite-Long"
+			(at 210.82 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mouse bites, break lines"
+			(at 210.82 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "motherboard-esp32"
+				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
+					(reference "B1")
 					(unit 1)
 				)
 			)
