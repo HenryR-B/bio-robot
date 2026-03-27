@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Pad 1.8mm 16AWG 10A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -211,7 +211,13 @@
 		(path "/a420015c-d201-4e7a-9577-92a7c8ecc959")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -277,7 +283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -289,7 +295,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -301,10 +307,94 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd17d00c-656a-477f-b805-264cd56a950c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A225KO8NNNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59defd22-892c-429d-ab0b-4b144ebc7978")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "183773bf-f6d4-4ac2-bcf1-c29ac5cf419e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7425b557-4927-4840-a0ea-50d5d5672dc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0083"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47dfe32b-c15f-45e1-bb64-df9ea0a64659")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Extended" "no"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18c90438-3224-42ce-a5f3-5ec13b55cb22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/37193ad0-1fa8-4b08-a891-dfcd78984620")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -521,7 +611,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -537,8 +627,14 @@
 		(path "/b669856b-0cf8-4803-9877-a6b51d2e602d")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(solder_mask_margin 0.1016)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -635,7 +731,7 @@
 				)
 			)
 		)
-		(property "Value" "SVD5865NLT4G"
+		(property "Value" "AO4354"
 			(at 0 3.4 180)
 			(layer "F.Fab")
 			(uuid "375c1940-026a-440d-be94-7b3f8db4f704")
@@ -646,7 +742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -657,7 +753,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-Channel 30 V 23A 3.1W Surface Mount SOIC8"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -668,10 +764,55 @@
 				)
 			)
 		)
+		(property "LCSC" "C61955"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d18b363-feb0-42fd-8592-4f5cbeac0357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO4354"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89711602-55bd-4d68-937d-fbb405b1b89f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "SOIC-8"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75a5e029-bb98-4c7b-95ef-6a35fa40147d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/7dc151bc-7692-4d1f-8f31-81e8088a251b")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "5" "6" "1" "7" "2" "8" "3")
+			)
+		)
 		(solder_mask_margin 0.1016)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -929,6 +1070,7 @@
 		(property "Reference" "P4"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c19ced6d-6365-4635-8d4f-04cd332e854d")
 			(effects
 				(font
@@ -960,7 +1102,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Pad 1.8mm 16AWG 10A"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -976,7 +1118,13 @@
 		(path "/98942b17-ffac-4f25-9407-3ea8fd12cd7a")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1021,7 +1169,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at -0.249987 -1.591866 180)
+			(at -0.249987 -6.4 270)
 			(layer "F.SilkS")
 			(uuid "1b5151df-38b7-4f62-97be-7e553aa20a4c")
 			(effects
@@ -1054,7 +1202,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1066,10 +1214,94 @@
 				)
 			)
 		)
+		(property "MPN" "CL10B474KA8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6a41463-6138-44ce-b8b5-fb3b90fa43a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a82e0634-af2d-4357-841d-5b710424b09c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "108e9aa8-3810-44d5-a757-6c3fad769239")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09716acc-68f7-4366-8174-9d5297193f2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1623"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c3ae0cf-4a8d-41ec-9d35-e22a4b921c60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f160d5d0-173d-4736-b441-c358aa541260")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6d5ac9ee-4935-4df7-bfb5-cc5cf87dc565")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1286,7 +1518,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1298,10 +1530,94 @@
 				)
 			)
 		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd5dfb07-94fd-47c7-9299-11d6f31ce2b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9263e54a-330c-461f-ad1c-51f1047a4731")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0645"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24185d92-a26c-4bfa-86fb-5323e7e0c75a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0805"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3d1d106-251c-4c4b-9b1e-688cf37effa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b888ba1-d648-416b-8c47-50895504874d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c17e57f-9824-476e-a6f5-fb3310bda521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b88b52a7-8374-4cc9-b89a-a8a38a1ba143")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.1016)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -1517,7 +1833,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1533,8 +1849,14 @@
 		(path "/7b6c7b7f-9b6c-4f5c-9477-9fb1526dca71")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(solder_mask_margin 0.1016)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1654,7 +1976,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1670,8 +1992,14 @@
 		(path "/048c6740-4c6b-4a95-8f77-0cbb34982b17")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(solder_mask_margin 0.1016)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1791,7 +2119,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.8uH 21A 25A 4.46mΩ AEC-Q200 Magnetic Shielded Inductor ±20% - Power Inductors ROHS"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1802,10 +2130,81 @@
 				)
 			)
 		)
+		(property "LCSC" "C3911679"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52b351ad-5a4f-4e1e-ba43-f79106bd0c73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "XAL7070-182MEC "
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d90c73f8-2164-441e-855f-dfc5b4746131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7367a2a-560e-40fc-a12b-7c5779d5db9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "SMD,11x10mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d9ddcd7-030f-44b0-8507-eace276a1676")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Extended" "yes"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37cfbc9f-5bca-4296-b858-364933d35c2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "IND_10040_TDK")
 		(path "/1b4f4860-2dee-49d8-890a-9f8db7912b06")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.1016)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -1990,7 +2389,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 8.63 0.95 180)
+			(at -0.95 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "cfb154fd-3b78-4e4d-9f75-a2e28208ea8b")
 			(effects
@@ -2023,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2035,10 +2434,94 @@
 				)
 			)
 		)
+		(property "MPN" "0603B153K500NT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcd44ca0-7e8b-48e0-b515-9daa21b4e56c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e650ee4a-5a9d-4e54-8032-46b2c5bf04b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0064"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcf3958e-c35c-4e46-97a3-dfc72844979c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "301a7c3f-f21a-4629-8f6a-f1e169c6dd21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1596"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b4621d7-88f7-40e7-91d5-918f99a4f2b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35d9fe10-e19d-4e36-a248-4dd9ba6983ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2b955633-c519-4ae6-9d36-f15a11eb3abc")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2263,10 +2746,68 @@
 				)
 			)
 		)
+		(property "LCSC" "C178336"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "506a4469-82ae-4f0f-ac00-c7153d9590b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "SMD,D6.3xL5.9mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "243609f3-19c2-4481-aea8-3f2892bbfa21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Extended" "yes"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "960c1aeb-3844-4318-9dcf-29f06e126578")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "10SVPC120MV"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46875b7a-79e8-4b9a-bd01-647e70dec490")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CAP_EEE_F_PAN CAP_EEE_F_PAN-M CAP_EEE_F_PAN-L")
 		(path "/5e7939f6-4bd6-45a1-81b2-23ef8ec86cbd")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2642,7 +3183,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2658,8 +3199,14 @@
 		(path "/2b8a5c38-4d85-4a9e-bc2c-f9a0d6c1f700")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(solder_mask_margin 0.1016)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2748,6 +3295,7 @@
 		(property "Reference" "P1"
 			(at 0.5 -3 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "424301d2-f89b-46ee-a89a-85031ac41503")
 			(effects
 				(font
@@ -2779,7 +3327,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Pad 1.8mm 16AWG 10A"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2795,7 +3343,13 @@
 		(path "/9499b485-967c-46ab-9731-51df17d4bc53")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2850,7 +3404,7 @@
 				)
 			)
 		)
-		(property "Value" "102k"
+		(property "Value" "100k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "8fa0da6f-a3c1-4755-98dd-a00c618f72c7")
@@ -2872,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2883,10 +3437,94 @@
 				)
 			)
 		)
+		(property "MPN" "0603WAF1003T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deedb4bf-bbc7-41d6-9ac8-250059ec527c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb38dfde-135c-4080-bc9e-ebb022b52536")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0009"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9dae077-1c21-4cbc-93c8-1f903620fdcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67fe456d-a24b-4da8-988e-07e1d1e49b96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "214270b5-5c12-48a1-8562-e0baf6f8cdfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f697e178-5728-4047-8d23-d777f51df625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/225c0526-39c2-44e4-b37c-214be9b27627")
+		(path "/fe53e488-7103-4b6b-a9ec-f9a20417c805")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3063,14 +3701,14 @@
 			)
 		)
 	)
-	(footprint "bots:R_0603_1608Metric"
+	(footprint "bio-robot:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a5b0fece-7b9f-4d9f-98c7-57e7da8b3cb8")
 		(at 128.175 86.5 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0.075 1.3 180)
+			(at 0 -1.43 180)
 			(layer "F.SilkS")
 			(uuid "c856761f-5766-4dd6-8780-b96165debdbf")
 			(effects
@@ -3080,7 +3718,7 @@
 				)
 			)
 		)
-		(property "Value" "9.76k"
+		(property "Value" "10k"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "4152779e-0b4b-4023-8e2d-fb070a0e51c2")
@@ -3099,10 +3737,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3110,13 +3749,98 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df6898a3-61ee-4438-9740-130d79612e78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7350226a-9dcb-4b85-8a5f-fb1dba87c634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0016"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c29e49b-9c67-4b5f-9c9b-d83e6b0d7998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c8bee36-1185-4a78-a6cc-d58d050a0ce9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea247dc8-a084-4e2c-8be1-355daab43f32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e90f1741-a5c9-4718-8086-abef18c2dc20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/bbb0fe87-a3dd-433f-a72d-820632a6063e")
+		(path "/b107c5a6-02d6-4905-bf7b-d1368062b15c")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3332,7 +4056,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3343,10 +4067,94 @@
 				)
 			)
 		)
+		(property "MPN" "0603WAF8060T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa6d468c-566c-4de7-a67b-cc1a286a7dd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab18316-fea8-446f-a4b3-4bcec735c688")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cc2d27f-73f0-4a85-adeb-29d8a1e5e65a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6066a6a-4989-4c58-b535-f3d4cac321d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23116"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fb052a7-58b0-4e4b-9e9a-10e2c1faa72c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "yes"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "200a69a6-5cc6-429f-ab8e-a3033419bbb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7c28bf26-a2f8-4492-9434-3108999cef06")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3563,7 +4371,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3575,10 +4383,94 @@
 				)
 			)
 		)
+		(property "MPN" "CL10C181JB8NNNC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2479fea-4435-4f45-bd8d-586e760eb791")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11d31d15-7d2f-4b62-bbbe-32bf15b17645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0075"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ac28c71-e12b-4490-9a6b-391050e430f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04b9dca3-fcf0-4156-866f-435cfcbacf84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17096"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d6d2cb8-36e6-4d8e-b35c-bb5ffd1b9534")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a291ad-41e7-47ed-9e5b-a20990abe195")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f65a00fa-0932-4547-b154-ef5b4d82f2be")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3795,7 +4687,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3807,10 +4699,94 @@
 				)
 			)
 		)
+		(property "MPN" "0603WAF1373T5E"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0fa26a6-983c-41cb-9c8b-f8ae228342d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65e8ec7c-edb7-4af6-9337-f2438a6a8494")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0016"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d81900a0-a070-4737-8e46-0166864d4c3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75d40b3d-f60a-437b-afb9-266095e9a614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22872"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "520fe301-99f6-408b-b353-eec8c94730a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "Yes"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed340915-22e1-40c5-8546-eb62406d1d2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/df06a834-7901-40cb-9741-98e737622e54")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4027,7 +5003,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4039,10 +5015,94 @@
 				)
 			)
 		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9337fdf0-ba04-4edb-a9d6-9072acad2f8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b290d869-f915-4630-afac-0c575f808a83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0645"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7db8068a-cfc0-4a73-af62-3911b1dce718")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0805"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3911508-84b5-4e61-a99e-9771cfaad485")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7a37f39-3c99-4f3a-a9ae-6c4c5a02d49f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5600755a-e998-4df6-9bd8-4cf08188f399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/dc2bda59-db33-48f5-9f3e-0d260600fedb")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.1016)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -4255,7 +5315,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6V to 42V Synchronous Step-Down Controller with Adjustable Output Voltage"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4266,9 +5326,158 @@
 				)
 			)
 		)
+		(property "MF" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39b4564b-cd47-4803-b2e5-93dfcb5b4c5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "136e0538-acd3-41a7-a3b5-205c9ab2d2ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "HTSSOP-14 Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44308b57-e31a-41f0-ae65-9c921be2fbf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1949470-cb2c-4077-9470-f884b35512a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM3150MHX/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05d7ba61-7148-40b8-ad72-ad0e123aca5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d4d0121-1c72-4d2f-9861-f94689dbba54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "G"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "327e5c7f-a3aa-4574-8ac8-164044e65f14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM3150MHX/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e44ce636-138a-41a2-8f1a-22b5d0eacb54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "LM3150MHX/NOPB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba42b35-e967-43f8-a7a6-3bfa20aaf4d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca560a79-d0b7-40eb-aa08-a4af70dbee8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "907f1bcc-9be4-445c-977c-5c8d867ddbea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/60bb5945-ff96-400f-aca8-27b12add1e78")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "7" "6" "3" "5" "9" "14" "15" "4" "11" "1" "12" "10" "8" "13")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4766,7 +5975,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "Q2"
-			(at -4.25 2.25 0)
+			(at -4.45 2.45 90)
 			(layer "F.SilkS")
 			(uuid "56281124-ef4f-4f73-80b3-47b9a6e0b001")
 			(effects
@@ -4776,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Value" "SVD5865NLT4G"
+		(property "Value" "AO4354"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "211d5cff-9e45-4fff-bac4-3222d2596c06")
@@ -4787,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8604441185771802624"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4798,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-Channel 30 V 23A 3.1W Surface Mount SOIC8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4809,10 +6018,55 @@
 				)
 			)
 		)
+		(property "LCSC" "C61955"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b48081cf-d7d6-41b9-b242-98ffad238f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AO4354"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dddd355-04f9-4718-a443-7396593a67bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "SOIC-8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73071726-461e-43d3-ad22-e25600d1d7dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?252*")
 		(path "/7558bb0f-a97b-4f0a-8cdd-268ed1dea994")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "5" "6" "1" "7" "2" "8" "3")
+			)
+		)
 		(solder_mask_margin 0.1016)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -5101,7 +6355,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5113,10 +6367,94 @@
 				)
 			)
 		)
+		(property "MPN" "CL31A226KAHNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "453519e0-a1dd-4024-9eb9-3d67c45f4efd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45dc0308-2719-4be1-be81-c2aca2f661f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0645"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8897a7bb-d1cd-439d-99d8-7bb7475e0e81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0805"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b002bd0-7b04-4c12-96a2-1bc502734bf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "add9a892-46bc-41e1-b08b-102af4c664bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed5dd65c-76f3-4be6-b21c-9cddb59304fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/de5a7813-d5a3-48b2-9b7c-0d41ccdef81e")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(solder_mask_margin 0.1016)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -5299,7 +6637,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at -3.45 -2.3 180)
+			(at 1.3 -1.45 180)
 			(layer "F.SilkS")
 			(uuid "647af356-9211-4588-bbbc-422b35273d2a")
 			(effects
@@ -5331,7 +6669,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5342,10 +6680,94 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296edecd-0cc0-4d82-8385-d1e1d3e2ef8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43948df8-a67e-479c-a4a9-16e9dd5f66dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.0021"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e193004e-c407-4cd4-bdb7-5207df3dba3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC" "0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31157c6d-f701-4eac-811d-52ffe0ea7040")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c21aa4b-af89-4ee9-b3bc-66454b33dd8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLC Extended" "no"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3615f909-edc3-4806-b917-474eac4b434d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6529af41-bf62-4d3a-b54f-afd11223c627")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5562,7 +6984,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder Pad 1.8mm 16AWG 10A"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5578,7 +7000,13 @@
 		(path "/5405faff-9272-446f-bd08-363638cab28d")
 		(sheetname "/")
 		(sheetfile "dc-dc-6.8V.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5760,7 +7188,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "6.8V Custom DC-DC\nMECH 540 / EECE 571M Marine Robotics\nGroup 3: Quiet Bio-inspired Propulsion System\nDesigned By: Henry Bryant\nPrinted on: March 24th, 2026"
+	(gr_text "6.8V Custom DC-DC\nMECH 540 / EECE 571M Marine Robotics\nGroup 3: Quiet Bio-inspired Propulsion System\nDesigned By: Henry Bryant\nPrinted on: March 26th, 2026"
 		(at 138 62.75 35)
 		(layer "B.SilkS")
 		(uuid "fe2f2a90-0701-40c6-bacf-11205347b888")
