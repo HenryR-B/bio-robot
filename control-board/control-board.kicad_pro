@@ -507,7 +507,7 @@
     ]
   },
   "meta": {
-    "filename": "servo-board.kicad_pro",
+    "filename": "control-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1147,8 +1147,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "servo-board.kicad_sch",
-        "name": "servo-board",
+        "filename": "control-board.kicad_sch",
+        "name": "control-board",
         "uuid": "06885edb-c921-425f-9c23-9a632279b786"
       }
     ],
