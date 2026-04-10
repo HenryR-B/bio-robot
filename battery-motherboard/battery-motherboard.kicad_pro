@@ -513,7 +513,7 @@
     ]
   },
   "meta": {
-    "filename": "motherboard-esp32.kicad_pro",
+    "filename": "battery-motherboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -680,8 +680,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "motherboard-esp32.kicad_sch",
-        "name": "motherboard-esp32",
+        "filename": "battery-motherboard.kicad_sch",
+        "name": "battery-motherboard",
         "uuid": "d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
       }
     ],

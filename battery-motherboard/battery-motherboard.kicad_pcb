@@ -18096,10 +18096,22 @@
 		(layer "Edge.Cuts")
 		(uuid "803829f7-84c9-4e89-93e3-83e2e62406c3")
 	)
-	(gr_text "This board has two battery inputs.\n- 5V Rail: 2-Cell 18650 Protected (Li-Ion). \n	Buck to 5V 3A.\n- 12V Rail: 3-Cell Custom Battery Pack using XT60. \n	Buck to 6.8V, 10A."
+	(gr_text "This board has two battery inputs.\n- 5V Rail: 2-Cell 18650 Protected (Li-Ion). \n	Buck to 5V 5A.\n- 12V Rail: 3-Cell Custom Battery Pack using XT60. \n	Buck to 6.8V, 10A."
 		(at 70.7 91.25 0)
 		(layer "F.SilkS")
 		(uuid "b024bf69-f3ea-49fe-bd6a-fe3e3dbb8383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "NEED TO FIX THE CURRENT BOTTLENECK \nFOR 12V TERMINAL BLOCK\n"
+		(at 175.75 81 0)
+		(layer "F.SilkS")
+		(uuid "7b99b09b-8bc7-4eb8-a33f-96995ed97ce3")
 		(effects
 			(font
 				(size 1 1)
