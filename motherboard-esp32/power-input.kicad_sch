@@ -5789,7 +5789,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 36.83) (xy 222.25 39.37)
+			(xy 185.42 119.38) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5829,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 58.42) (xy 222.25 62.23)
+			(xy 185.42 142.24) (xy 185.42 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5859,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 143.51) (xy 34.29 110.49)
+			(xy 34.29 147.32) (xy 34.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +6109,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 142.24) (xy 111.76 142.24)
+			(xy 97.79 142.24) (xy 111.76 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6179,7 +6179,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 142.24) (xy 101.6 167.64)
+			(xy 97.79 142.24) (xy 97.79 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6299,7 +6299,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 46.99) (xy 222.25 50.8)
+			(xy 185.42 130.81) (xy 185.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6548,7 +6548,7 @@
 		(uuid "ba9326e8-5a1c-4092-b24f-99dd8daa5877")
 	)
 	(label "LED_5V"
-		(at 222.25 49.53 0)
+		(at 185.42 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8034,7 +8034,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_blue"
+		(property "Value" "LED_white"
 			(at 234.95 142.3378 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8768,7 +8768,7 @@
 	)
 	(symbol
 		(lib_id "bio-robot:LED_green")
-		(at 222.25 54.61 90)
+		(at 185.42 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8779,7 +8779,7 @@
 		(fields_autoplaced yes)
 		(uuid "753d8161-2949-4075-aa03-98749fae0532")
 		(property "Reference" "D3"
-			(at 226.06 54.9274 90)
+			(at 189.23 138.7474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8790,7 +8790,7 @@
 			)
 		)
 		(property "Value" "LED_green"
-			(at 226.06 57.4674 90)
+			(at 189.23 141.2874 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8801,7 +8801,7 @@
 			)
 		)
 		(property "Footprint" "bio-robot:LED_0805_2012Metric"
-			(at 229.87 54.61 0)
+			(at 193.04 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8812,7 +8812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 54.61 0)
+			(at 185.42 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8823,7 +8823,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 222.25 54.61 0)
+			(at 185.42 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +8834,7 @@
 			)
 		)
 		(property "MPN" "KT-0805G"
-			(at 229.87 54.61 0)
+			(at 193.04 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8845,7 +8845,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 228.6 54.61 0)
+			(at 191.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +8856,7 @@
 			)
 		)
 		(property "Price" "0.0127"
-			(at 228.6 54.61 0)
+			(at 191.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8867,7 +8867,7 @@
 			)
 		)
 		(property "JLC" "0805"
-			(at 228.6 53.34 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +8878,7 @@
 			)
 		)
 		(property "LCSC" "C2297"
-			(at 229.87 54.61 0)
+			(at 193.04 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,7 +8889,7 @@
 			)
 		)
 		(property "JLC Extended" "no"
-			(at 222.25 54.61 0)
+			(at 185.42 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9416,7 +9416,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 143.51 0)
+		(at 34.29 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9426,7 +9426,7 @@
 		(dnp no)
 		(uuid "96afdf54-7baa-46a1-82d7-a8f6c0b264ca")
 		(property "Reference" "#PWR017"
-			(at 34.29 149.86 0)
+			(at 34.29 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,7 +9437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 147.32 0)
+			(at 34.29 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9447,7 +9447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 143.51 0)
+			(at 34.29 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9458,7 +9458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 143.51 0)
+			(at 34.29 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9469,7 +9469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 143.51 0)
+			(at 34.29 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9493,7 +9493,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 167.64 0)
+		(at 97.79 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9503,7 +9503,7 @@
 		(dnp no)
 		(uuid "9bb0ec9e-4e36-4ba3-8ff0-49eb945e4544")
 		(property "Reference" "#PWR018"
-			(at 101.6 173.99 0)
+			(at 97.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9514,7 +9514,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 171.45 0)
+			(at 97.79 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9524,7 +9524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 167.64 0)
+			(at 97.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,7 +9535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 167.64 0)
+			(at 97.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9546,7 +9546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 167.64 0)
+			(at 97.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +9797,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 62.23 0)
+		(at 185.42 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9807,7 +9807,7 @@
 		(dnp no)
 		(uuid "b20afa10-804d-418b-b99a-c5a0bcf23f2e")
 		(property "Reference" "#PWR050"
-			(at 222.25 68.58 0)
+			(at 185.42 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9818,7 +9818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 66.294 0)
+			(at 186.69 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9828,7 +9828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 62.23 0)
+			(at 185.42 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,7 +9839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 62.23 0)
+			(at 185.42 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,7 +9850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 62.23 0)
+			(at 185.42 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10199,7 +10199,7 @@
 	)
 	(symbol
 		(lib_id "bio-robot:R_3.3k")
-		(at 222.25 43.18 0)
+		(at 185.42 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10210,7 +10210,7 @@
 		(fields_autoplaced yes)
 		(uuid "c20d2d9b-9709-4783-94dc-d7738f10d86d")
 		(property "Reference" "R7"
-			(at 224.79 41.9099 0)
+			(at 187.96 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10221,7 +10221,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 224.79 44.4499 0)
+			(at 187.96 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10232,7 +10232,7 @@
 			)
 		)
 		(property "Footprint" "bio-robot:R_0603_1608Metric"
-			(at 220.472 43.18 90)
+			(at 183.642 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10243,7 +10243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +10254,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10265,7 +10265,7 @@
 			)
 		)
 		(property "MPN" "0603WAF3301T5E"
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10276,7 +10276,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +10287,7 @@
 			)
 		)
 		(property "Price" "0.0009"
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10298,7 +10298,7 @@
 			)
 		)
 		(property "JLC" "0603"
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10309,7 +10309,7 @@
 			)
 		)
 		(property "LCSC" "C22978"
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10320,7 +10320,7 @@
 			)
 		)
 		(property "JLC Extended" "no"
-			(at 222.25 43.18 0)
+			(at 185.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10571,7 +10571,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 222.25 36.83 0)
+		(at 185.42 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10581,7 +10581,7 @@
 		(dnp no)
 		(uuid "db9392de-8dbb-4526-9799-c643b15a2ac0")
 		(property "Reference" "#PWR049"
-			(at 222.25 40.64 0)
+			(at 185.42 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10592,7 +10592,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 222.25 33.274 0)
+			(at 185.42 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10602,7 +10602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 36.83 0)
+			(at 185.42 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10613,7 +10613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 36.83 0)
+			(at 185.42 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10624,7 +10624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 222.25 36.83 0)
+			(at 185.42 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
