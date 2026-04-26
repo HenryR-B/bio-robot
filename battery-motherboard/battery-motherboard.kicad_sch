@@ -175,7 +175,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(reference "H1")
 					(unit 1)
@@ -251,7 +251,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(reference "H10")
 					(unit 1)
@@ -327,7 +327,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(reference "H11")
 					(unit 1)
@@ -403,7 +403,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(reference "H4")
 					(unit 1)
@@ -479,7 +479,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(reference "H3")
 					(unit 1)
@@ -555,7 +555,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(reference "H9")
 					(unit 1)
@@ -631,7 +631,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(reference "H2")
 					(unit 1)
@@ -678,7 +678,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(page "3")
 				)
@@ -724,7 +724,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753"
 					(page "4")
 				)

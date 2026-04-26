@@ -5653,6 +5653,27 @@
 		)
 		(uuid "34ab64a8-d2de-40bb-8188-4657436e6ed5")
 	)
+	(text "LED drops 2.57V across it.\n(6.8V-2.57V)/2k = 2.1mA (this is fairly bright)\nreduce to 1mA\n(6.8V-2.57V)/1mA = 4.3k"
+		(exclude_from_sim no)
+		(at 234.442 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40bee71f-02e9-4af6-94e9-9bc703ad8555")
+	)
+	(text "Final Resistor Values for approx equal intensity:\n5V: (5V-2.29)/6.8k = 0.4mA (1/2 brightness)\n6.8V: (6.8V-2.57V)/4.7k = 0.9mA (1/2 brightness)\nVCC:  (9.6 to 12.6V-1.79V)/10k = 0.8mA to 1.1mA"
+		(exclude_from_sim no)
+		(at 242.824 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4268f869-7bb4-4548-bb18-8770a43cd12d")
+	)
 	(text "need the zener to clamp the voltage at minimum voltage\n9.6V - 5.5 = 4.1V (4.7V Zener doesnt work here at voltages < 10.3V)"
 		(exclude_from_sim no)
 		(at 175.514 38.608 0)
@@ -5682,6 +5703,28 @@
 			)
 		)
 		(uuid "93bee7fc-8bb5-4856-b876-b174bd1ad375")
+	)
+	(text "LED drops 1.79V on a multimeter\n9.6-12.6V: worst case = 12.6V\n(12.6V-1.79V)/34k = 0.32mA (this is dim). We want ~1mA\n(12.6V-1.79V)/1mA = 10.8k"
+		(exclude_from_sim no)
+		(at 174.752 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "950e715f-80f0-4331-91c7-b0d22ab0503c")
+	)
+	(text "Led drops 2.29V on multimeter\n(5V-2.29V)/3.3k = 0.82 ( bright). Could reduce. \nPerhaps 0.5mA is ideal?\n(5V-2.29V)/0.5mA = 5.4k; raise to 6.8k"
+		(exclude_from_sim no)
+		(at 224.536 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d1c32ff-2d00-4316-aa64-694212f774f0")
 	)
 	(text "- these mosfets turn on at -5 to -5.5V fully, not -3V as specced. Just keep that in mind. "
 		(exclude_from_sim no)
@@ -6687,7 +6730,7 @@
 			(uuid "1dd22d7e-6f15-4f51-98c4-55d14dc429b0")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR07")
 					(unit 1)
@@ -6773,7 +6816,7 @@
 			(uuid "23e496fa-e67d-4e9b-828c-c94bc1eabefa")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "J7")
 					(unit 1)
@@ -6921,7 +6964,7 @@
 			(uuid "50f17c25-298c-4ef0-a279-36cc9e47dc51")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R8")
 					(unit 1)
@@ -6999,7 +7042,7 @@
 			(uuid "819e1ef2-5bb7-47b7-a260-63c424e5226a")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR01")
 					(unit 1)
@@ -7077,7 +7120,7 @@
 			(uuid "214b199e-a411-404c-a296-14f27b805b14")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR06")
 					(unit 1)
@@ -7214,7 +7257,7 @@
 			(uuid "3fa2cfcb-ffaa-4d70-9fc8-c2520448091a")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R9")
 					(unit 1)
@@ -7292,7 +7335,7 @@
 			(uuid "5a623e2d-f672-4054-a921-a78d93342ebf")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR016")
 					(unit 1)
@@ -7399,7 +7442,7 @@
 			(uuid "0dcaee8b-ba3c-42c9-993d-90d6dea049d2")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "Q3")
 					(unit 1)
@@ -7477,7 +7520,7 @@
 			(uuid "3e996544-5f2a-43d7-8172-5493a07fd2a2")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR02")
 					(unit 1)
@@ -7555,7 +7598,7 @@
 			(uuid "73848ce4-41e5-4590-942f-144023f85a3f")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR020")
 					(unit 1)
@@ -7639,7 +7682,7 @@
 			(uuid "3628c813-180e-40e0-a725-9241747a180a")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "J4")
 					(unit 1)
@@ -7747,7 +7790,7 @@
 			(uuid "d85242a5-f71a-441d-88fb-f43aac5087f6")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "Q4")
 					(unit 1)
@@ -7895,7 +7938,7 @@
 			(uuid "920d4a51-db9b-4b42-9e2e-1190dda9724f")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "D2")
 					(unit 1)
@@ -8043,7 +8086,7 @@
 			(uuid "08cb237d-1768-40a0-981d-eb44b310239c")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R4")
 					(unit 1)
@@ -8191,7 +8234,7 @@
 			(uuid "ff01f01a-d1e2-49ac-a1a3-16b028bec974")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "D6")
 					(unit 1)
@@ -8424,7 +8467,7 @@
 			(uuid "faea2c8e-0b82-47bf-8ec9-e8901941fc7b")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "BT8")
 					(unit 1)
@@ -8572,7 +8615,7 @@
 			(uuid "2cc37ce6-aea1-49c7-992c-00c34248388e")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R10")
 					(unit 1)
@@ -8720,7 +8763,7 @@
 			(uuid "8dac1f2f-4824-477c-a7e4-ca114c77e5cf")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R1")
 					(unit 1)
@@ -8798,7 +8841,7 @@
 			(uuid "b16b6362-ce8d-441f-a181-1f4b3b04c714")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR013")
 					(unit 1)
@@ -8946,7 +8989,7 @@
 			(uuid "d296a5e8-f616-4d10-86de-38636e242962")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "D3")
 					(unit 1)
@@ -9083,7 +9126,7 @@
 			(uuid "cb406a61-f80b-48ff-b05d-7bbbeab88672")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "D1")
 					(unit 1)
@@ -9231,7 +9274,7 @@
 			(uuid "dbc2ee8f-6b7b-4346-af78-d0c4878cf34f")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R3")
 					(unit 1)
@@ -9339,7 +9382,7 @@
 			(uuid "11fe9b14-1de9-41e7-9bf3-af96da01a6bc")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "Q2")
 					(unit 1)
@@ -9446,7 +9489,7 @@
 			(uuid "fec51be3-ae7d-4dd9-be0b-fc33139ed7c9")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "Q1")
 					(unit 1)
@@ -9523,7 +9566,7 @@
 			(uuid "0cb58bc5-0e44-4dc2-8ca8-26c07e2b55e0")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR017")
 					(unit 1)
@@ -9600,7 +9643,7 @@
 			(uuid "1323f168-1eab-491a-a367-28a0803f4f73")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR018")
 					(unit 1)
@@ -9679,7 +9722,7 @@
 			(uuid "15c1fc69-35b2-403c-a953-39fba97f6fc2")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR014")
 					(unit 1)
@@ -9827,7 +9870,7 @@
 			(uuid "ad92eea6-9b82-4f3f-8d03-46a01cfd2877")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "D5")
 					(unit 1)
@@ -9904,7 +9947,7 @@
 			(uuid "73378d74-f865-4b44-9f3f-512d16fa7e37")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR050")
 					(unit 1)
@@ -10083,7 +10126,7 @@
 			(uuid "39c7e5ba-16a4-4e9c-a1c4-6a6e3c2d71cd")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "Q6")
 					(unit 1)
@@ -10229,7 +10272,7 @@
 			(uuid "1f8a39cd-9015-4512-b406-9d569e690ae4")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "F2")
 					(unit 1)
@@ -10377,7 +10420,7 @@
 			(uuid "e113c494-7d2d-47c9-bf96-1453ad03a6dd")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R7")
 					(unit 1)
@@ -10523,7 +10566,7 @@
 			(uuid "dd80d7a9-b45b-430f-a003-19086d8b875d")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "F1")
 					(unit 1)
@@ -10601,7 +10644,7 @@
 			(uuid "2d9c9cdc-67e5-4e91-a0e6-8dd8b8e7c3c4")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR015")
 					(unit 1)
@@ -10678,7 +10721,7 @@
 			(uuid "71db0f77-b4ce-42f8-bc93-bbf4a942619e")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "#PWR049")
 					(unit 1)
@@ -10826,7 +10869,7 @@
 			(uuid "348eb31e-d2cb-4b9d-a473-b1ba7b9cca74")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R2")
 					(unit 1)
@@ -10974,7 +11017,7 @@
 			(uuid "f6774a29-cf93-42ea-81bd-057081c44b84")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "R11")
 					(unit 1)
@@ -10984,7 +11027,7 @@
 	)
 	(symbol
 		(lib_id "bio-robot:Long_Attachment_no_mousebites")
-		(at 210.82 85.09 0)
+		(at 190.5 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -10995,7 +11038,7 @@
 		(fields_autoplaced yes)
 		(uuid "e960aaac-5547-4319-a571-b38acf00acf3")
 		(property "Reference" "B1"
-			(at 213.36 83.8824 0)
+			(at 193.04 87.6924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11006,7 +11049,7 @@
 			)
 		)
 		(property "Value" "Long_4mm_Attachment_no_mousebites"
-			(at 213.36 86.4224 0)
+			(at 193.04 90.2324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11017,7 +11060,7 @@
 			)
 		)
 		(property "Footprint" "bio-robot:Long_4mm_attachment_no_mouse_bites"
-			(at 210.82 85.09 0)
+			(at 190.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11028,7 +11071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 85.09 0)
+			(at 190.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11039,7 +11082,7 @@
 			)
 		)
 		(property "Description" "Mouse bites, break lines"
-			(at 210.82 85.09 0)
+			(at 190.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11050,7 +11093,7 @@
 			)
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "B1")
 					(unit 1)
@@ -11134,7 +11177,7 @@
 			(uuid "3f53c4f5-0278-4d01-bb9a-4a029e1cb510")
 		)
 		(instances
-			(project "motherboard-esp32"
+			(project "battery-motherboard"
 				(path "/d5fb8fba-70d9-4abd-aa21-c96ccdcfa753/d9cb3474-f996-47d2-9ced-ceac8301b71b"
 					(reference "J3")
 					(unit 1)
